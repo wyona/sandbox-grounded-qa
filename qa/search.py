@@ -16,6 +16,10 @@ import numpy as np
 from bs4 import BeautifulSoup
 from serpapi import GoogleSearch
 
+from qa.util import pretty_print
+
+import json
+
 
 def blockPrint():
     """Calling this function stops the serpAPI from print to stdout."""
@@ -56,21 +60,33 @@ def serp_api_google_search(search_term, serp_api_token, url):
         "num": "5"
     }
     blockPrint()
+    # https://github.com/serpapi/google-search-results-python
     results = GoogleSearch(params)
     print("WHAT")
     enablePrint()
     return results
 
 
-def serp_api_search(search_term, serp_api_token, url):
+def serp_api_search(search_term, serp_api_token, url, verbosity=0):
     """Iterates over organic results and top stories.
     
     Returns: 
         a list of tuples of the form (url, text)
     """
 
+    file_name = "serpapi_search_results_moodle.json"
+    #file_name = "serpapi_search_results.json"
+    if verbosity > 1:
+        pretty_print("OKGREEN", f"Load JSON file: {file_name}")
+    #json_file = open(file_name)
+    #results = json.load(json_file)
+    #json_file.close()
+
     response = serp_api_google_search(search_term, serp_api_token, url)
     results = response.get_dict()
+
+    if verbosity > 1:
+        pretty_print("OKGREEN", f"Search results from SerpAPI/Google: {results}")
 
     response_urls = []
     text = ""
@@ -83,6 +99,8 @@ def serp_api_search(search_term, serp_api_token, url):
                 if "snippet" in results[key][i]:
                     text = results[key][i]["snippet"]
                 i += 1
+                if verbosity > 1:
+                    pretty_print("OKGREEN", f"URL from SerpAPI/Google: {url}")
                 response_urls.append([url, text])
     return response_urls
 
@@ -128,7 +146,7 @@ def get_paragraphs_text_from_url(k):
         return []
 
 
-def get_results_paragraphs_multi_process(search_term, serp_api_token, url=None):
+def get_results_paragraphs_multi_process(search_term, serp_api_token, url=None, verbosity=0):
     """Given a query, retrieve relevant paragraphs from the search results.
     
     This function will first search for documents matching a query. Then, for
@@ -137,7 +155,7 @@ def get_results_paragraphs_multi_process(search_term, serp_api_token, url=None):
     a list, which is returned.
     """
 
-    results = serp_api_search(search_term, serp_api_token, url)
+    results = serp_api_search(search_term, serp_api_token, url, verbosity)
 
     if not results:
         return [], []

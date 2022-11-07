@@ -74,8 +74,8 @@ def serp_api_search(search_term, serp_api_token, url, verbosity=0):
         a list of tuples of the form (url, text)
     """
 
-    #file_name = None
-    file_name = "serpapi_search_results_marlon-brando.json"
+    file_name = None
+    #file_name = "serpapi_search_results_marlon-brando.json"
     #file_name = "serpapi_search_results_moodle.json"
     #file_name = "serpapi_search_results.json"
 

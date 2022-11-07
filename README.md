@@ -65,7 +65,7 @@ python3 cli_demo.py --cohere_api_key <API_KEY> --serp_api_key <API_KEY>
 ```
 3.2. Try the REST demo by running
 ```sh
-python3 rest_demo.py --cohere_api_key <API_KEY> --serp_api_key <API_KEY>
+python3 rest_demo.py --cohere_api_key <API_KEY> --serp_api_key <API_KEY> --verbosity 2
 ```
 whereas test it by sending the following request
 ```

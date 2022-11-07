@@ -1,0 +1,124 @@
+{
+   "search_metadata":{
+      "id":"6368ee678b7ed2b1c4d09e46",
+      "status":"Success",
+      "json_endpoint":"https://serpapi.com/searches/cd9ca6294dc1d711/6368ee678b7ed2b1c4d09e46.json",
+      "created_at":"2022-11-07 11:39:19 UTC",
+      "processed_at":"2022-11-07 11:39:19 UTC",
+      "google_url":"https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fmoodle.org+How+can+I+upload+files+bigger+than+48MB%3F&oq=site%3Ahttps%3A%2F%2Fmoodle.org+How+can+I+upload+files+bigger+than+48MB%3F&hl=en&gl=us&num=5&sourceid=chrome&ie=UTF-8",
+      "raw_html_file":"https://serpapi.com/searches/cd9ca6294dc1d711/6368ee678b7ed2b1c4d09e46.html",
+      "total_time_taken":1.55
+   },
+   "search_parameters":{
+      "engine":"google",
+      "q":"site:https://moodle.org How can I upload files bigger than 48MB?",
+      "google_domain":"google.com",
+      "hl":"en",
+      "gl":"us",
+      "num":"5",
+      "device":"desktop"
+   },
+   "search_information":{
+      "organic_results_state":"Results for exact spelling",
+      "query_displayed":"site:https://moodle.org How can I upload files bigger than 48MB?",
+      "total_results":2,
+      "time_taken_displayed":0.33,
+      "menu_items":[
+         {
+            "position":1,
+            "title":"All"
+         },
+         {
+            "position":2,
+            "title":"Videos",
+            "link":"https://www.google.com/search?q=site:https://moodle.org+How+can+I+upload+files+bigger+than+48MB%3F&num=5&hl=en&gl=us&source=lnms&tbm=vid&sa=X&ved=2ahUKEwjEs77-_Zv7AhU8mWoFHVjpDtIQ_AUoAXoECAIQAw",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=site%3Ahttps%3A%2F%2Fmoodle.org+How+can+I+upload+files+bigger+than+48MB%3F&tbm=vid"
+         },
+         {
+            "position":3,
+            "title":"Images",
+            "link":"https://www.google.com/search?q=site:https://moodle.org+How+can+I+upload+files+bigger+than+48MB%3F&num=5&hl=en&gl=us&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjEs77-_Zv7AhU8mWoFHVjpDtIQ_AUoAnoECAIQBA",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=site%3Ahttps%3A%2F%2Fmoodle.org+How+can+I+upload+files+bigger+than+48MB%3F&tbm=isch"
+         },
+         {
+            "position":4,
+            "title":"Books",
+            "link":"https://www.google.com/search?q=site:https://moodle.org+How+can+I+upload+files+bigger+than+48MB%3F&num=5&hl=en&gl=us&source=lnms&tbm=bks&sa=X&ved=2ahUKEwjEs77-_Zv7AhU8mWoFHVjpDtIQ_AUoA3oECAIQBQ"
+         },
+         {
+            "position":5,
+            "title":"Shopping",
+            "link":"https://www.google.com/search?q=site:https://moodle.org+How+can+I+upload+files+bigger+than+48MB%3F&num=5&hl=en&gl=us&source=lnms&tbm=shop&sa=X&ved=2ahUKEwjEs77-_Zv7AhU8mWoFHVjpDtIQ_AUoBHoECAIQBg",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=site%3Ahttps%3A%2F%2Fmoodle.org+How+can+I+upload+files+bigger+than+48MB%3F&tbm=shop"
+         }
+      ]
+   },
+   "organic_results":[
+      {
+         "position":1,
+         "title":"Course size problem: audio files balloon in size dramatically",
+         "link":"https://moodle.org/mod/forum/discuss.php?d=364145",
+         "displayed_link":"https://moodle.org › mod › forum › discuss",
+         "date":"Jan 17, 2018",
+         "snippet":"In other words, one of the files is 7 MB by itself, but in the Moodle backup file it is 48 MB! Another file is only 4 MB by itself, but is 26 MB ...",
+         "snippet_highlighted_words":[
+            "files",
+            "file",
+            "48 MB",
+            "file"
+         ],
+         "about_this_result":{
+            "source":{
+               "description":"Moodle is a free and open-source learning management system written in PHP and distributed under the GNU General Public License. Moodle is used for blended learning, distance education, flipped classroom and other online learning projects in schools, universities, workplaces and other sectors.",
+               "source_info_link":"https://moodle.org/mod/forum/discuss.php?d=364145",
+               "security":"secure",
+               "icon":"https://serpapi.com/searches/6368ee678b7ed2b1c4d09e46/images/888068dce14eeeae931c2ea9d5e852d25b5b864722454449cd03bac57b36c0bed9695b35819f9f115d450769516d6439.png"
+            }
+         },
+         "about_page_link":"https://www.google.com/search?q=About+https://moodle.org/mod/forum/discuss.php?d%3D364145&tbm=ilp&ilps=ADNMCi1P0VY6SX5GviA8XhoVqZ0d6qrG6A",
+         "about_page_serpapi_link":"https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi1P0VY6SX5GviA8XhoVqZ0d6qrG6A&q=About+https%3A%2F%2Fmoodle.org%2Fmod%2Fforum%2Fdiscuss.php%3Fd%3D364145",
+         "cached_page_link":"https://webcache.googleusercontent.com/search?q=cache:sLj3AFfoFhAJ:https://moodle.org/mod/forum/discuss.php%3Fd%3D364145&cd=1&hl=en&ct=clnk&gl=us"
+      },
+      {
+         "position":2,
+         "title":"Moodle install gives blank page after Configure ... - Moodle in English",
+         "link":"https://moodle.org/mod/forum/discuss.php?d=65786&lang=id",
+         "displayed_link":"https://moodle.org › mod › forum › discuss",
+         "snippet":"I have attempted to place a .htaccess file in both my moodle and moodledata folders, ... Using ini_set commands: If you are using Moodle 1.7 or higher, ...",
+         "snippet_highlighted_words":[
+            "to",
+            "file",
+            "or higher"
+         ],
+         "about_this_result":{
+            "source":{
+               "description":"Moodle is a free and open-source learning management system written in PHP and distributed under the GNU General Public License. Moodle is used for blended learning, distance education, flipped classroom and other online learning projects in schools, universities, workplaces and other sectors.",
+               "source_info_link":"https://moodle.org/mod/forum/discuss.php?d=65786&lang=id",
+               "security":"secure",
+               "icon":"https://serpapi.com/searches/6368ee678b7ed2b1c4d09e46/images/888068dce14eeeae931c2ea9d5e852d2ad8a8ded8b3ec3ec572d975afec071389049602030bec295521336e5bb46bebc.png"
+            }
+         },
+         "about_page_link":"https://www.google.com/search?q=About+https://moodle.org/mod/forum/discuss.php?d%3D65786%26lang%3Did&tbm=ilp&ilps=ADNMCi1dQK_UxaGtBNjbNsOkoqQ-evWDSQ",
+         "about_page_serpapi_link":"https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi1dQK_UxaGtBNjbNsOkoqQ-evWDSQ&q=About+https%3A%2F%2Fmoodle.org%2Fmod%2Fforum%2Fdiscuss.php%3Fd%3D65786%26lang%3Did",
+         "cached_page_link":"https://webcache.googleusercontent.com/search?q=cache:Y_2vWTCOK9AJ:https://moodle.org/mod/forum/discuss.php%3Fd%3D65786%26lang%3Did&cd=2&hl=en&ct=clnk&gl=us"
+      }
+   ],
+   "pagination":{
+      "current":1,
+      "other_pages":{
+         "2":"https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fmoodle.org+How+can+I+upload+files+bigger+than+48MB%3F&oq=site%3Ahttps%3A%2F%2Fmoodle.org+How+can+I+upload+files+bigger+than+48MB%3F&hl=en&gl=us&num=5&start=5&sourceid=chrome&ie=UTF-8",
+         "3":"https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fmoodle.org+How+can+I+upload+files+bigger+than+48MB%3F&oq=site%3Ahttps%3A%2F%2Fmoodle.org+How+can+I+upload+files+bigger+than+48MB%3F&hl=en&gl=us&num=5&start=10&sourceid=chrome&ie=UTF-8",
+         "4":"https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fmoodle.org+How+can+I+upload+files+bigger+than+48MB%3F&oq=site%3Ahttps%3A%2F%2Fmoodle.org+How+can+I+upload+files+bigger+than+48MB%3F&hl=en&gl=us&num=5&start=15&sourceid=chrome&ie=UTF-8",
+         "5":"https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fmoodle.org+How+can+I+upload+files+bigger+than+48MB%3F&oq=site%3Ahttps%3A%2F%2Fmoodle.org+How+can+I+upload+files+bigger+than+48MB%3F&hl=en&gl=us&num=5&start=20&sourceid=chrome&ie=UTF-8"
+      }
+   },
+   "serpapi_pagination":{
+      "current":1,
+      "other_pages":{
+         "2":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=site%3Ahttps%3A%2F%2Fmoodle.org+How+can+I+upload+files+bigger+than+48MB%3F&start=5",
+         "3":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=site%3Ahttps%3A%2F%2Fmoodle.org+How+can+I+upload+files+bigger+than+48MB%3F&start=10",
+         "4":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=site%3Ahttps%3A%2F%2Fmoodle.org+How+can+I+upload+files+bigger+than+48MB%3F&start=15",
+         "5":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=site%3Ahttps%3A%2F%2Fmoodle.org+How+can+I+upload+files+bigger+than+48MB%3F&start=20"
+      }
+   }
+}

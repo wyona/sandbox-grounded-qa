@@ -1,0 +1,327 @@
+{
+   "search_metadata":{
+      "id":"636806e287a0ee106748a6f4",
+      "status":"Success",
+      "json_endpoint":"https://serpapi.com/searches/6282f9aefa3cf932/636806e287a0ee106748a6f4.json",
+      "created_at":"2022-11-06 19:11:30 UTC",
+      "processed_at":"2022-11-06 19:11:30 UTC",
+      "google_url":"https://www.google.com/search?q=who+is+Michael+Wechner%3F&oq=who+is+Michael+Wechner%3F&hl=en&gl=us&num=5&sourceid=chrome&ie=UTF-8",
+      "raw_html_file":"https://serpapi.com/searches/6282f9aefa3cf932/636806e287a0ee106748a6f4.html",
+      "total_time_taken":0.76
+   },
+   "search_parameters":{
+      "engine":"google",
+      "q":"who is Michael Wechner?",
+      "google_domain":"google.com",
+      "hl":"en",
+      "gl":"us",
+      "num":"5",
+      "device":"desktop"
+   },
+   "search_information":{
+      "organic_results_state":"Results for exact spelling",
+      "query_displayed":"who is Michael Wechner?",
+      "total_results":63200,
+      "time_taken_displayed":0.54,
+      "menu_items":[
+         {
+            "position":1,
+            "title":"All"
+         },
+         {
+            "position":2,
+            "title":"News",
+            "link":"https://www.google.com/search?q=who+is+Michael+Wechner%3F&num=5&gl=us&hl=en&source=lnms&tbm=nws&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ_AUoAXoECAEQAw",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F&tbm=nws"
+         },
+         {
+            "position":3,
+            "title":"Images",
+            "link":"https://www.google.com/search?q=who+is+Michael+Wechner%3F&num=5&gl=us&hl=en&source=lnms&tbm=isch&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ_AUoAnoECAEQBA",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F&tbm=isch"
+         },
+         {
+            "position":4,
+            "title":"Videos",
+            "link":"https://www.google.com/search?q=who+is+Michael+Wechner%3F&num=5&gl=us&hl=en&source=lnms&tbm=vid&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ_AUoA3oECAEQBQ",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F&tbm=vid"
+         },
+         {
+            "position":5,
+            "title":"Shopping",
+            "link":"https://www.google.com/search?q=who+is+Michael+Wechner%3F&num=5&gl=us&hl=en&source=lnms&tbm=shop&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ_AUoBHoECAEQBg",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F&tbm=shop"
+         }
+      ]
+   },
+   "knowledge_graph":{
+      "title":" Michael Wechner ",
+      "type":"Physicist",
+      "education":"ETH Zürich",
+      "education_links":[
+         {
+            "text":"ETH Zürich",
+            "link":"https://www.google.com/search?num=5&gl=us&hl=en&q=ETH+Z%C3%BCrich&stick=H4sIAAAAAAAAAOPgE-LVT9c3NCwqzy02KkrOVeLUz9U3MEypzLbQks5OttIvSM0vyEkFUkXF-XlWqSmlyYklmfl5i1i5XUM8FKIO7ynKTM7Ywcq4i52JgwEA2-Gpq08AAAA&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQmxMoAHoECCYQAg"
+         }
+      ],
+      "children":"Vanya Brucker, Ezra Brucker, Levi Brucker",
+      "children_links":[
+         {
+            "text":"Vanya Brucker",
+            "link":"https://www.google.com/search?num=5&gl=us&hl=en&q=Vanya+Brucker&stick=H4sIAAAAAAAAAOPgE-LVT9c3NCwqzy02KkrOVYJwC0wLDMzL0gy0pLKTrfQLUvMLclKBVFFxfp5VckZmTkpRat4iVt6wxLzKRAWnotLk7NSiHayMu9iZOBgBqUE-YlQAAAA&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQmxMoAHoECCgQAg"
+         },
+         {
+            "text":"Ezra Brucker",
+            "link":"https://www.google.com/search?num=5&gl=us&hl=en&q=Ezra+Brucker&stick=H4sIAAAAAAAAAOPgE-LVT9c3NCwqzy02KkrOVYJyK5MMTdKSDLSkspOt9AtS8wtyUoFUUXF-nlVyRmZOSlFq3iJWHteqokQFp6LS5OzUoh2sjLvYmTgYAVKyL3dTAAAA&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQmxMoAXoECCgQAw"
+         },
+         {
+            "text":"Levi Brucker",
+            "link":"https://www.google.com/search?num=5&gl=us&hl=en&q=Levi+Brucker&stick=H4sIAAAAAAAAAOPgE-LVT9c3NCwqzy02KkrOVYJwC0wLDPKyco21pLKTrfQLUvMLclKBVFFxfp5VckZmTkpRat4iVh6f1LJMBaei0uTs1KIdrIy72Jk4GAHVUD8tUwAAAA&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQmxMoAnoECCgQBA"
+         }
+      ],
+      "profiles":[
+         {
+            "name":"LinkedIn",
+            "link":"https://ch.linkedin.com/in/michaelwechner",
+            "image":"https://serpapi.com/searches/636806e287a0ee106748a6f4/images/6a9b9884a513c48e7156f05e47081573abd6a290d86752f2af6a130ab02c52334adb2d227cb94378.png"
+         }
+      ]
+   },
+   "inline_images":[
+      {
+         "link":"https://www.google.com/search?num=5&source=univ&tbm=isch&q=who+is+Michael+Wechner%3F&gl=us&hl=en&fir=HN0Lfdlq5q8pZM%252Ca5naZOI2yYKbSM%252C_%253BGVBXwtbfqaww4M%252Ct01zPxynIZL4RM%252C_%253BQyE_DJxKlah0zM%252Cls7qyrzGMOjxKM%252C_%253BxPPvk5UsQsX9iM%252CBzYUvbVH8L5XcM%252C_%253Bnm5yIx2-wF4wrM%252CF6pQGVQW5131-M%252C_%253BCTTBihrrQTOSZM%252CYl-PLAdn3H83aM%252C_%253BZwRlXIm_CQCD5M%252CY5DzKygqf6TGNM%252C_%253BpAt5tx9gGh_ZwM%252CsSH5gIIVSYGCNM%252C_%253B6ugux3-SLxCVrM%252CUP4RA4rE2nMQSM%252C_%253BNwFmQpincMa4IM%252Cq56bXnqh-cGyoM%252C_&usg=AI4_-kTFYWgIwTFOoqLLq_IV45N32iXupg&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ9AF6BAgLEAA#imgrc=HN0Lfdlq5q8pZM",
+         "source":"https://www.researchgate.net/profile/Michael-Wechner",
+         "thumbnail":"https://serpapi.com/searches/636806e287a0ee106748a6f4/images/317b0fd4cffd5ddf74e9354a98a50f797d9605112a5d9095c43e7d1b8a417a5b.jpeg"
+      },
+      {
+         "link":"https://www.google.com/search?num=5&source=univ&tbm=isch&q=who+is+Michael+Wechner%3F&gl=us&hl=en&fir=HN0Lfdlq5q8pZM%252Ca5naZOI2yYKbSM%252C_%253BGVBXwtbfqaww4M%252Ct01zPxynIZL4RM%252C_%253BQyE_DJxKlah0zM%252Cls7qyrzGMOjxKM%252C_%253BxPPvk5UsQsX9iM%252CBzYUvbVH8L5XcM%252C_%253Bnm5yIx2-wF4wrM%252CF6pQGVQW5131-M%252C_%253BCTTBihrrQTOSZM%252CYl-PLAdn3H83aM%252C_%253BZwRlXIm_CQCD5M%252CY5DzKygqf6TGNM%252C_%253BpAt5tx9gGh_ZwM%252CsSH5gIIVSYGCNM%252C_%253B6ugux3-SLxCVrM%252CUP4RA4rE2nMQSM%252C_%253BNwFmQpincMa4IM%252Cq56bXnqh-cGyoM%252C_&usg=AI4_-kTFYWgIwTFOoqLLq_IV45N32iXupg&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ9AF6BAgbEAA#imgrc=GVBXwtbfqaww4M",
+         "source":"https://www.wyona.com/people/michael-wechner/index.html",
+         "thumbnail":"https://serpapi.com/searches/636806e287a0ee106748a6f4/images/317b0fd4cffd5ddf6381952b17be5ccf618e201c3be94936ec9942851ca61274.jpeg"
+      },
+      {
+         "link":"https://www.google.com/search?num=5&source=univ&tbm=isch&q=who+is+Michael+Wechner%3F&gl=us&hl=en&fir=HN0Lfdlq5q8pZM%252Ca5naZOI2yYKbSM%252C_%253BGVBXwtbfqaww4M%252Ct01zPxynIZL4RM%252C_%253BQyE_DJxKlah0zM%252Cls7qyrzGMOjxKM%252C_%253BxPPvk5UsQsX9iM%252CBzYUvbVH8L5XcM%252C_%253Bnm5yIx2-wF4wrM%252CF6pQGVQW5131-M%252C_%253BCTTBihrrQTOSZM%252CYl-PLAdn3H83aM%252C_%253BZwRlXIm_CQCD5M%252CY5DzKygqf6TGNM%252C_%253BpAt5tx9gGh_ZwM%252CsSH5gIIVSYGCNM%252C_%253B6ugux3-SLxCVrM%252CUP4RA4rE2nMQSM%252C_%253BNwFmQpincMa4IM%252Cq56bXnqh-cGyoM%252C_&usg=AI4_-kTFYWgIwTFOoqLLq_IV45N32iXupg&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ9AF6BAghEAA#imgrc=QyE_DJxKlah0zM",
+         "source":"https://medium.com/@michaelwechner",
+         "thumbnail":"https://serpapi.com/searches/636806e287a0ee106748a6f4/images/317b0fd4cffd5ddf248dedbf0bf506fa4b0bda66dd32f8d7c41e47cc74a85e72.jpeg"
+      },
+      {
+         "link":"https://www.google.com/search?num=5&source=univ&tbm=isch&q=who+is+Michael+Wechner%3F&gl=us&hl=en&fir=HN0Lfdlq5q8pZM%252Ca5naZOI2yYKbSM%252C_%253BGVBXwtbfqaww4M%252Ct01zPxynIZL4RM%252C_%253BQyE_DJxKlah0zM%252Cls7qyrzGMOjxKM%252C_%253BxPPvk5UsQsX9iM%252CBzYUvbVH8L5XcM%252C_%253Bnm5yIx2-wF4wrM%252CF6pQGVQW5131-M%252C_%253BCTTBihrrQTOSZM%252CYl-PLAdn3H83aM%252C_%253BZwRlXIm_CQCD5M%252CY5DzKygqf6TGNM%252C_%253BpAt5tx9gGh_ZwM%252CsSH5gIIVSYGCNM%252C_%253B6ugux3-SLxCVrM%252CUP4RA4rE2nMQSM%252C_%253BNwFmQpincMa4IM%252Cq56bXnqh-cGyoM%252C_&usg=AI4_-kTFYWgIwTFOoqLLq_IV45N32iXupg&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ9AF6BAgTEAA#imgrc=xPPvk5UsQsX9iM",
+         "source":"https://www.crunchbase.com/person/michael-wechner",
+         "thumbnail":"https://serpapi.com/searches/636806e287a0ee106748a6f4/images/317b0fd4cffd5ddf38cd93ab5095e6892644965d038a687488def4ac5cda200e.jpeg"
+      },
+      {
+         "link":"https://www.google.com/search?num=5&source=univ&tbm=isch&q=who+is+Michael+Wechner%3F&gl=us&hl=en&fir=HN0Lfdlq5q8pZM%252Ca5naZOI2yYKbSM%252C_%253BGVBXwtbfqaww4M%252Ct01zPxynIZL4RM%252C_%253BQyE_DJxKlah0zM%252Cls7qyrzGMOjxKM%252C_%253BxPPvk5UsQsX9iM%252CBzYUvbVH8L5XcM%252C_%253Bnm5yIx2-wF4wrM%252CF6pQGVQW5131-M%252C_%253BCTTBihrrQTOSZM%252CYl-PLAdn3H83aM%252C_%253BZwRlXIm_CQCD5M%252CY5DzKygqf6TGNM%252C_%253BpAt5tx9gGh_ZwM%252CsSH5gIIVSYGCNM%252C_%253B6ugux3-SLxCVrM%252CUP4RA4rE2nMQSM%252C_%253BNwFmQpincMa4IM%252Cq56bXnqh-cGyoM%252C_&usg=AI4_-kTFYWgIwTFOoqLLq_IV45N32iXupg&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ9AF6BAgeEAA#imgrc=nm5yIx2-wF4wrM",
+         "source":"https://www.youtube.com/watch?v=jU6gpbBdzKY",
+         "thumbnail":"https://serpapi.com/searches/636806e287a0ee106748a6f4/images/317b0fd4cffd5ddf525e63dcaf7874256e7c245ec824185e8bb0a04a018bb44d.jpeg"
+      },
+      {
+         "link":"https://www.google.com/search?num=5&source=univ&tbm=isch&q=who+is+Michael+Wechner%3F&gl=us&hl=en&fir=HN0Lfdlq5q8pZM%252Ca5naZOI2yYKbSM%252C_%253BGVBXwtbfqaww4M%252Ct01zPxynIZL4RM%252C_%253BQyE_DJxKlah0zM%252Cls7qyrzGMOjxKM%252C_%253BxPPvk5UsQsX9iM%252CBzYUvbVH8L5XcM%252C_%253Bnm5yIx2-wF4wrM%252CF6pQGVQW5131-M%252C_%253BCTTBihrrQTOSZM%252CYl-PLAdn3H83aM%252C_%253BZwRlXIm_CQCD5M%252CY5DzKygqf6TGNM%252C_%253BpAt5tx9gGh_ZwM%252CsSH5gIIVSYGCNM%252C_%253B6ugux3-SLxCVrM%252CUP4RA4rE2nMQSM%252C_%253BNwFmQpincMa4IM%252Cq56bXnqh-cGyoM%252C_&usg=AI4_-kTFYWgIwTFOoqLLq_IV45N32iXupg&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ9AF6BAggEAA#imgrc=CTTBihrrQTOSZM",
+         "source":"https://www.crunchbase.com/person/michael-wechner-67c7",
+         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMX9A4vXhM71RIjGVYT9fE9PwvSrikanJVVVl4atzVlA&s"
+      },
+      {
+         "link":"https://www.google.com/search?num=5&source=univ&tbm=isch&q=who+is+Michael+Wechner%3F&gl=us&hl=en&fir=HN0Lfdlq5q8pZM%252Ca5naZOI2yYKbSM%252C_%253BGVBXwtbfqaww4M%252Ct01zPxynIZL4RM%252C_%253BQyE_DJxKlah0zM%252Cls7qyrzGMOjxKM%252C_%253BxPPvk5UsQsX9iM%252CBzYUvbVH8L5XcM%252C_%253Bnm5yIx2-wF4wrM%252CF6pQGVQW5131-M%252C_%253BCTTBihrrQTOSZM%252CYl-PLAdn3H83aM%252C_%253BZwRlXIm_CQCD5M%252CY5DzKygqf6TGNM%252C_%253BpAt5tx9gGh_ZwM%252CsSH5gIIVSYGCNM%252C_%253B6ugux3-SLxCVrM%252CUP4RA4rE2nMQSM%252C_%253BNwFmQpincMa4IM%252Cq56bXnqh-cGyoM%252C_&usg=AI4_-kTFYWgIwTFOoqLLq_IV45N32iXupg&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ9AF6BAgWEAA#imgrc=ZwRlXIm_CQCD5M",
+         "source":"https://www.youtube.com/watch?v=dcu2xIO_lAE",
+         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyLALTZyfqdNaQiYVkijeZHfE3VQvXgtSvHx7173GdAg&s"
+      },
+      {
+         "link":"https://www.google.com/search?num=5&source=univ&tbm=isch&q=who+is+Michael+Wechner%3F&gl=us&hl=en&fir=HN0Lfdlq5q8pZM%252Ca5naZOI2yYKbSM%252C_%253BGVBXwtbfqaww4M%252Ct01zPxynIZL4RM%252C_%253BQyE_DJxKlah0zM%252Cls7qyrzGMOjxKM%252C_%253BxPPvk5UsQsX9iM%252CBzYUvbVH8L5XcM%252C_%253Bnm5yIx2-wF4wrM%252CF6pQGVQW5131-M%252C_%253BCTTBihrrQTOSZM%252CYl-PLAdn3H83aM%252C_%253BZwRlXIm_CQCD5M%252CY5DzKygqf6TGNM%252C_%253BpAt5tx9gGh_ZwM%252CsSH5gIIVSYGCNM%252C_%253B6ugux3-SLxCVrM%252CUP4RA4rE2nMQSM%252C_%253BNwFmQpincMa4IM%252Cq56bXnqh-cGyoM%252C_&usg=AI4_-kTFYWgIwTFOoqLLq_IV45N32iXupg&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ9AF6BAgYEAA#imgrc=pAt5tx9gGh_ZwM",
+         "source":"https://aceu19.apachecon.com/member/michael-wechner",
+         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB0rK3t-PBgX5MOW6cgKOVpUyk7x8KTgtwqycn4nk&s"
+      },
+      {
+         "link":"https://www.google.com/search?num=5&source=univ&tbm=isch&q=who+is+Michael+Wechner%3F&gl=us&hl=en&fir=HN0Lfdlq5q8pZM%252Ca5naZOI2yYKbSM%252C_%253BGVBXwtbfqaww4M%252Ct01zPxynIZL4RM%252C_%253BQyE_DJxKlah0zM%252Cls7qyrzGMOjxKM%252C_%253BxPPvk5UsQsX9iM%252CBzYUvbVH8L5XcM%252C_%253Bnm5yIx2-wF4wrM%252CF6pQGVQW5131-M%252C_%253BCTTBihrrQTOSZM%252CYl-PLAdn3H83aM%252C_%253BZwRlXIm_CQCD5M%252CY5DzKygqf6TGNM%252C_%253BpAt5tx9gGh_ZwM%252CsSH5gIIVSYGCNM%252C_%253B6ugux3-SLxCVrM%252CUP4RA4rE2nMQSM%252C_%253BNwFmQpincMa4IM%252Cq56bXnqh-cGyoM%252C_&usg=AI4_-kTFYWgIwTFOoqLLq_IV45N32iXupg&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ9AF6BAgNEAA#imgrc=6ugux3-SLxCVrM",
+         "source":"https://www.wyona.com/people/michael-wechner/gilbane-boston2008-presentation.pdf",
+         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZLEdIr_xoVIzhHUNCP4LtBla1RYYfz0E1SE6OL149&s"
+      },
+      {
+         "link":"https://www.google.com/search?num=5&source=univ&tbm=isch&q=who+is+Michael+Wechner%3F&gl=us&hl=en&fir=HN0Lfdlq5q8pZM%252Ca5naZOI2yYKbSM%252C_%253BGVBXwtbfqaww4M%252Ct01zPxynIZL4RM%252C_%253BQyE_DJxKlah0zM%252Cls7qyrzGMOjxKM%252C_%253BxPPvk5UsQsX9iM%252CBzYUvbVH8L5XcM%252C_%253Bnm5yIx2-wF4wrM%252CF6pQGVQW5131-M%252C_%253BCTTBihrrQTOSZM%252CYl-PLAdn3H83aM%252C_%253BZwRlXIm_CQCD5M%252CY5DzKygqf6TGNM%252C_%253BpAt5tx9gGh_ZwM%252CsSH5gIIVSYGCNM%252C_%253B6ugux3-SLxCVrM%252CUP4RA4rE2nMQSM%252C_%253BNwFmQpincMa4IM%252Cq56bXnqh-cGyoM%252C_&usg=AI4_-kTFYWgIwTFOoqLLq_IV45N32iXupg&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ9AF6BAgMEAA#imgrc=NwFmQpincMa4IM",
+         "source":"https://slideplayer.com/slide/11842629/",
+         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGYIyBWXaUP0sKbslOmx2_Wr33O37XQgJbJA_k7e0iHQ&s"
+      }
+   ],
+   "inline_images_suggested_searches":[
+      {
+         "name":"linkedin",
+         "link":"https://www.google.com/search?num=5&gl=us&hl=en&q=who+is+Michael+Wechner?&tbm=isch&chips=q:who+is+michael+wechner,online_chips:linkedin&usg=AI4_-kSqpVPkrX-OgEaz5--CZsKwAQ4jCg&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQgIoDKAB6BAgKEBE",
+         "chips":"q:who+is+michael+wechner,online_chips:linkedin",
+         "serpapi_link":"https://serpapi.com/search.json?chips=q%3Awho%2Bis%2Bmichael%2Bwechner%2Conline_chips%3Alinkedin&device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F"
+      },
+      {
+         "name":"knowledge management",
+         "link":"https://www.google.com/search?num=5&gl=us&hl=en&q=who+is+Michael+Wechner?&tbm=isch&chips=q:who+is+michael+wechner,online_chips:knowledge+management:AAm_iVxlBGc%3D&usg=AI4_-kRrTa32nsIOUgbJhpWg-IZuy5u-XQ&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQgIoDKAF6BAgKEBQ",
+         "chips":"q:who+is+michael+wechner,online_chips:knowledge+management:AAm_iVxlBGc%3D",
+         "serpapi_link":"https://serpapi.com/search.json?chips=q%3Awho%2Bis%2Bmichael%2Bwechner%2Conline_chips%3Aknowledge%2Bmanagement%3AAAm_iVxlBGc%253D&device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F",
+         "thumbnail":"https://serpapi.com/searches/636806e287a0ee106748a6f4/images/317b0fd4cffd5ddf8343874cfa0dee4efc8178173c4d5ade5ce617f9386caa87adaefaf3187a3327368d58e430deb2a8.jpeg"
+      },
+      {
+         "name":"crunchbase daily",
+         "link":"https://www.google.com/search?num=5&gl=us&hl=en&q=who+is+Michael+Wechner?&tbm=isch&chips=q:who+is+michael+wechner,online_chips:crunchbase+daily:M0HrGorBNAk%3D&usg=AI4_-kQ2LTvS1Aizb8pWFfzqK71w1cvWRA&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQgIoDKAJ6BAgKEBg",
+         "chips":"q:who+is+michael+wechner,online_chips:crunchbase+daily:M0HrGorBNAk%3D",
+         "serpapi_link":"https://serpapi.com/search.json?chips=q%3Awho%2Bis%2Bmichael%2Bwechner%2Conline_chips%3Acrunchbase%2Bdaily%3AM0HrGorBNAk%253D&device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F",
+         "thumbnail":"https://serpapi.com/searches/636806e287a0ee106748a6f4/images/317b0fd4cffd5ddf8343874cfa0dee4efc8178173c4d5ade5ce617f9386caa8746333d5254bf5a7f7500091b3a43d8e1.jpeg"
+      },
+      {
+         "name":"crunchbase pro",
+         "link":"https://www.google.com/search?num=5&gl=us&hl=en&q=who+is+Michael+Wechner?&tbm=isch&chips=q:who+is+michael+wechner,online_chips:crunchbase+pro:xUIslZPv88Q%3D&usg=AI4_-kQ5Pl80119juisA-m2AhKNq4fGQAQ&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQgIoDKAN6BAgKEBw",
+         "chips":"q:who+is+michael+wechner,online_chips:crunchbase+pro:xUIslZPv88Q%3D",
+         "serpapi_link":"https://serpapi.com/search.json?chips=q%3Awho%2Bis%2Bmichael%2Bwechner%2Conline_chips%3Acrunchbase%2Bpro%3AxUIslZPv88Q%253D&device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F",
+         "thumbnail":"https://serpapi.com/searches/636806e287a0ee106748a6f4/images/317b0fd4cffd5ddf8343874cfa0dee4efc8178173c4d5ade5ce617f9386caa87b46388e93d3b683493864da41d4020b9.jpeg"
+      },
+      {
+         "name":"mathematical physics",
+         "link":"https://www.google.com/search?num=5&gl=us&hl=en&q=who+is+Michael+Wechner?&tbm=isch&chips=q:who+is+michael+wechner,online_chips:mathematical+physics:rKnf1sJXUBk%3D&usg=AI4_-kSMPhTu7XtCe31vvrWK63iTvHsM8A&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQgIoDKAR6BAgKECA",
+         "chips":"q:who+is+michael+wechner,online_chips:mathematical+physics:rKnf1sJXUBk%3D",
+         "serpapi_link":"https://serpapi.com/search.json?chips=q%3Awho%2Bis%2Bmichael%2Bwechner%2Conline_chips%3Amathematical%2Bphysics%3ArKnf1sJXUBk%253D&device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F",
+         "thumbnail":"https://serpapi.com/searches/636806e287a0ee106748a6f4/images/317b0fd4cffd5ddf8343874cfa0dee4efc8178173c4d5ade5ce617f9386caa8777518ebe868e45a0876506d84bf93055.jpeg"
+      },
+      {
+         "name":"tirol",
+         "link":"https://www.google.com/search?num=5&gl=us&hl=en&q=who+is+Michael+Wechner?&tbm=isch&chips=q:who+is+michael+wechner,online_chips:tirol:XGw6yHTAm04%3D&usg=AI4_-kT4P5BL9qAbEPDHIsepRoP2tvaO3g&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQgIoDKAV6BAgKECQ",
+         "chips":"q:who+is+michael+wechner,online_chips:tirol:XGw6yHTAm04%3D",
+         "serpapi_link":"https://serpapi.com/search.json?chips=q%3Awho%2Bis%2Bmichael%2Bwechner%2Conline_chips%3Atirol%3AXGw6yHTAm04%253D&device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F",
+         "thumbnail":"https://serpapi.com/searches/636806e287a0ee106748a6f4/images/317b0fd4cffd5ddf8343874cfa0dee4efc8178173c4d5ade5ce617f9386caa875f47a3033eb894c3763f0b9d475e4089.jpeg"
+      },
+      {
+         "name":"planck institute",
+         "link":"https://www.google.com/search?num=5&gl=us&hl=en&q=who+is+Michael+Wechner?&tbm=isch&chips=q:who+is+michael+wechner,online_chips:planck+institute:ycA0xFb76Kg%3D&usg=AI4_-kTP3Py9EQhntvpJfBIFePl3JhBvbw&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQgIoDKAZ6BAgKECg",
+         "chips":"q:who+is+michael+wechner,online_chips:planck+institute:ycA0xFb76Kg%3D",
+         "serpapi_link":"https://serpapi.com/search.json?chips=q%3Awho%2Bis%2Bmichael%2Bwechner%2Conline_chips%3Aplanck%2Binstitute%3AycA0xFb76Kg%253D&device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F",
+         "thumbnail":"https://serpapi.com/searches/636806e287a0ee106748a6f4/images/317b0fd4cffd5ddf8343874cfa0dee4efc8178173c4d5ade5ce617f9386caa873a934c953639040f6cf6b5d51215aee1.png"
+      },
+      {
+         "name":"max planck",
+         "link":"https://www.google.com/search?num=5&gl=us&hl=en&q=who+is+Michael+Wechner?&tbm=isch&chips=q:who+is+michael+wechner,online_chips:max+planck:xnCnmEJmATc%3D&usg=AI4_-kS_LGp5Vls_EfVsYubDh5pafnz8kA&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQgIoDKAd6BAgKECw",
+         "chips":"q:who+is+michael+wechner,online_chips:max+planck:xnCnmEJmATc%3D",
+         "serpapi_link":"https://serpapi.com/search.json?chips=q%3Awho%2Bis%2Bmichael%2Bwechner%2Conline_chips%3Amax%2Bplanck%3AxnCnmEJmATc%253D&device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F",
+         "thumbnail":"https://serpapi.com/searches/636806e287a0ee106748a6f4/images/317b0fd4cffd5ddf8343874cfa0dee4efc8178173c4d5ade5ce617f9386caa872cdb6b1b072a122c1a125433c0a5a632.png"
+      },
+      {
+         "name":"ischgl",
+         "link":"https://www.google.com/search?num=5&gl=us&hl=en&q=who+is+Michael+Wechner?&tbm=isch&chips=q:who+is+michael+wechner,online_chips:ischgl:GhGzuf-SZ0U%3D&usg=AI4_-kQBIxA8PzKrS7I5mYMhbdTc3t1Gjg&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQgIoDKAh6BAgKEDA",
+         "chips":"q:who+is+michael+wechner,online_chips:ischgl:GhGzuf-SZ0U%3D",
+         "serpapi_link":"https://serpapi.com/search.json?chips=q%3Awho%2Bis%2Bmichael%2Bwechner%2Conline_chips%3Aischgl%3AGhGzuf-SZ0U%253D&device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F",
+         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD4MdlGJWD1IdvNmsxEYz2HFRuvDRVJNSjpfbk5vklyw&s"
+      },
+      {
+         "name":"zurich",
+         "link":"https://www.google.com/search?num=5&gl=us&hl=en&q=who+is+Michael+Wechner?&tbm=isch&chips=q:who+is+michael+wechner,online_chips:zurich&usg=AI4_-kSCQhDFimYd1ttRlGICE4XRGVoBQA&sa=X&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQgIoDKAl6BAgKEDQ",
+         "chips":"q:who+is+michael+wechner,online_chips:zurich",
+         "serpapi_link":"https://serpapi.com/search.json?chips=q%3Awho%2Bis%2Bmichael%2Bwechner%2Conline_chips%3Azurich&device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F"
+      }
+   ],
+   "organic_results":[
+      {
+         "position":1,
+         "title":"Michael Wechner - Wyona",
+         "link":"https://www.wyona.com/people/michael-wechner/index.html",
+         "displayed_link":"https://www.wyona.com › people › michael-wechner",
+         "snippet":"Michael Wechner is co-founder of Wyona and the original creator of various Open Source projects such as Apache Lenya, Yanel and Yarep, ...",
+         "snippet_highlighted_words":[
+            "co-founder of Wyona"
+         ],
+         "about_this_result":{
+            "source":{
+               "description":"wyona.com was first indexed by Google more than 10 years ago",
+               "source_info_link":"https://www.wyona.com/people/michael-wechner/index.html",
+               "security":"secure",
+               "icon":"https://serpapi.com/searches/636806e287a0ee106748a6f4/images/c4c63690d16b277622e981be1fb59a2ad8770d0c967ef77f655f570e043883318951271104b84c7fbc9641672c8dbd83.png"
+            }
+         },
+         "about_page_link":"https://www.google.com/search?q=About+https://www.wyona.com/people/michael-wechner/index.html&tbm=ilp&ilps=ADNMCi1StjWDJum9vfq1sA8CzxM4re-9iw",
+         "about_page_serpapi_link":"https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi1StjWDJum9vfq1sA8CzxM4re-9iw&q=About+https%3A%2F%2Fwww.wyona.com%2Fpeople%2Fmichael-wechner%2Findex.html",
+         "cached_page_link":"https://webcache.googleusercontent.com/search?q=cache:t01zPxynIZIJ:https://www.wyona.com/people/michael-wechner/index.html&cd=1&hl=en&ct=clnk&gl=us"
+      },
+      {
+         "position":2,
+         "title":"Michael Wechner - Crunchbase Person Profile",
+         "link":"https://www.crunchbase.com/person/michael-wechner",
+         "displayed_link":"https://www.crunchbase.com › person › michael-wechner",
+         "snippet":"Michael Wechner is the CEO at Wyona . Additionally, Michael Wechner has had 1 past job as the CTO at CB Financial Services . Wyona Logo.",
+         "snippet_highlighted_words":[
+            "the CEO at Wyona"
+         ],
+         "about_this_result":{
+            "source":{
+               "description":"Crunchbase is a company providing business information about private and public companies. Their content includes investment and funding information, founding members and individuals in leadership positions, mergers and acquisitions, news, and industry trends.",
+               "source_info_link":"https://www.crunchbase.com/person/michael-wechner",
+               "security":"secure",
+               "icon":"https://serpapi.com/searches/636806e287a0ee106748a6f4/images/c4c63690d16b277622e981be1fb59a2aa456b26b643674156625a3d162ad9e27ec701851f4fcb1c6574debc0f3a03438.png"
+            }
+         },
+         "about_page_link":"https://www.google.com/search?q=About+https://www.crunchbase.com/person/michael-wechner&tbm=ilp&ilps=ADNMCi0rkG6oMP0lkYGJwPeMrgsmInWgUA",
+         "about_page_serpapi_link":"https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi0rkG6oMP0lkYGJwPeMrgsmInWgUA&q=About+https%3A%2F%2Fwww.crunchbase.com%2Fperson%2Fmichael-wechner",
+         "cached_page_link":"https://webcache.googleusercontent.com/search?q=cache:BzYUvbVH8L4J:https://www.crunchbase.com/person/michael-wechner&cd=2&hl=en&ct=clnk&gl=us"
+      },
+      {
+         "position":3,
+         "title":"Michael Wechner – CEO at Wyona - LinkedIn",
+         "link":"https://ch.linkedin.com/in/michaelwechner",
+         "displayed_link":"https://ch.linkedin.com › michaelwechner",
+         "snippet":"President of the Board, CEO, CTO · Member · Chief Technology Officer · Lead on Conversational Interfaces, Senior Software Engineer · Software Architect/Developer.",
+         "snippet_highlighted_words":[
+            "President of the Board, CEO, CTO"
+         ],
+         "about_this_result":{
+            "source":{
+               "description":"LinkedIn is an American business and employment-oriented online service that operates via websites and mobile apps. Launched on May 5, 2003, the platform is primarily used for professional networking and career development, and allows job seekers to post their CVs and employers to post jobs.",
+               "source_info_link":"https://ch.linkedin.com/in/michaelwechner",
+               "security":"secure",
+               "icon":"https://serpapi.com/searches/636806e287a0ee106748a6f4/images/c4c63690d16b277622e981be1fb59a2a9c5871d5006cb000c085104b6e9e5c96cb5eda9eb3816b654ab3f7c1dea4686a.png"
+            }
+         },
+         "about_page_link":"https://www.google.com/search?q=About+https://ch.linkedin.com/in/michaelwechner&tbm=ilp&ilps=ADNMCi1N4bGRkVSldGVd7gHLNPQH2en0vQ",
+         "about_page_serpapi_link":"https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi1N4bGRkVSldGVd7gHLNPQH2en0vQ&q=About+https%3A%2F%2Fch.linkedin.com%2Fin%2Fmichaelwechner"
+      },
+      {
+         "position":4,
+         "title":"Michael Wechner (@michael.wechner03) • Instagram photos and ...",
+         "link":"https://www.instagram.com/michael.wechner03/",
+         "displayed_link":"https://www.instagram.com › michael.wechner03",
+         "snippet":"32 Followers, 227 Following, 5 Posts - See Instagram photos and videos from Michael Wechner (@michael.wechner03)",
+         "snippet_highlighted_words":[
+            "Michael Wechner"
+         ],
+         "about_this_result":{
+            "source":{
+               "description":"Instagram is a photo and video sharing social networking service owned by American company Meta Platforms. The app allows users to upload media that can be edited with filters and organized by hashtags and geographical tagging. Posts can be shared publicly or with preapproved followers.",
+               "source_info_link":"https://www.instagram.com/michael.wechner03/",
+               "security":"secure",
+               "icon":"https://serpapi.com/searches/636806e287a0ee106748a6f4/images/c4c63690d16b277622e981be1fb59a2adc39b73ef8445385d702a8824838c834c4bd65ac147afacbbc1cf6b37435fdac.png"
+            }
+         },
+         "about_page_link":"https://www.google.com/search?q=About+https://www.instagram.com/michael.wechner03/&tbm=ilp&ilps=ADNMCi3F2bq5Eu_sXuJimzlyWNVimdOI8Q",
+         "about_page_serpapi_link":"https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi3F2bq5Eu_sXuJimzlyWNVimdOI8Q&q=About+https%3A%2F%2Fwww.instagram.com%2Fmichael.wechner03%2F"
+      }
+   ],
+   "pagination":{
+      "current":1,
+      "next":"https://www.google.com/search?q=who+is+Michael+Wechner%3F&num=5&gl=us&hl=en&ei=4gZoY53ONaqf5NoPhKuyiAo&start=5&sa=N&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ8NMDegQIBRAW",
+      "other_pages":{
+         "2":"https://www.google.com/search?q=who+is+Michael+Wechner%3F&num=5&gl=us&hl=en&ei=4gZoY53ONaqf5NoPhKuyiAo&start=5&sa=N&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ8tMDegQIBRAE",
+         "3":"https://www.google.com/search?q=who+is+Michael+Wechner%3F&num=5&gl=us&hl=en&ei=4gZoY53ONaqf5NoPhKuyiAo&start=10&sa=N&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ8tMDegQIBRAG",
+         "4":"https://www.google.com/search?q=who+is+Michael+Wechner%3F&num=5&gl=us&hl=en&ei=4gZoY53ONaqf5NoPhKuyiAo&start=15&sa=N&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ8tMDegQIBRAI",
+         "5":"https://www.google.com/search?q=who+is+Michael+Wechner%3F&num=5&gl=us&hl=en&ei=4gZoY53ONaqf5NoPhKuyiAo&start=20&sa=N&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ8tMDegQIBRAK",
+         "6":"https://www.google.com/search?q=who+is+Michael+Wechner%3F&num=5&gl=us&hl=en&ei=4gZoY53ONaqf5NoPhKuyiAo&start=25&sa=N&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ8tMDegQIBRAM",
+         "7":"https://www.google.com/search?q=who+is+Michael+Wechner%3F&num=5&gl=us&hl=en&ei=4gZoY53ONaqf5NoPhKuyiAo&start=30&sa=N&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ8tMDegQIBRAO",
+         "8":"https://www.google.com/search?q=who+is+Michael+Wechner%3F&num=5&gl=us&hl=en&ei=4gZoY53ONaqf5NoPhKuyiAo&start=35&sa=N&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ8tMDegQIBRAQ",
+         "9":"https://www.google.com/search?q=who+is+Michael+Wechner%3F&num=5&gl=us&hl=en&ei=4gZoY53ONaqf5NoPhKuyiAo&start=40&sa=N&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ8tMDegQIBRAS",
+         "10":"https://www.google.com/search?q=who+is+Michael+Wechner%3F&num=5&gl=us&hl=en&ei=4gZoY53ONaqf5NoPhKuyiAo&start=45&sa=N&ved=2ahUKEwidx82YoZr7AhWqD1kFHYSVDKEQ8tMDegQIBRAU"
+      }
+   },
+   "serpapi_pagination":{
+      "current":1,
+      "next_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F&start=5",
+      "next":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F&start=5",
+      "other_pages":{
+         "2":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F&start=5",
+         "3":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F&start=10",
+         "4":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F&start=15",
+         "5":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F&start=20",
+         "6":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F&start=25",
+         "7":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F&start=30",
+         "8":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F&start=35",
+         "9":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F&start=40",
+         "10":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=who+is+Michael+Wechner%3F&start=45"
+      }
+   }
+}

@@ -1,0 +1,524 @@
+{
+   "search_metadata":{
+      "id":"636910ba116a55d24c24902d",
+      "status":"Success",
+      "json_endpoint":"https://serpapi.com/searches/f14db103431423b1/636910ba116a55d24c24902d.json",
+      "created_at":"2022-11-07 14:05:46 UTC",
+      "processed_at":"2022-11-07 14:05:46 UTC",
+      "google_url":"https://www.google.com/search?q=when+did+Marlon+Brando+die%3F&oq=when+did+Marlon+Brando+die%3F&hl=en&gl=us&num=5&sourceid=chrome&ie=UTF-8",
+      "raw_html_file":"https://serpapi.com/searches/f14db103431423b1/636910ba116a55d24c24902d.html",
+      "total_time_taken":1.26
+   },
+   "search_parameters":{
+      "engine":"google",
+      "q":"when did Marlon Brando die?",
+      "google_domain":"google.com",
+      "hl":"en",
+      "gl":"us",
+      "num":"5",
+      "device":"desktop"
+   },
+   "search_information":{
+      "organic_results_state":"Results for exact spelling",
+      "query_displayed":"when did Marlon Brando die?",
+      "total_results":19500000,
+      "time_taken_displayed":0.64,
+      "menu_items":[
+         {
+            "position":1,
+            "title":"All"
+         },
+         {
+            "position":2,
+            "title":"News",
+            "link":"https://www.google.com/search?q=when+did+Marlon+Brando+die%3F&num=5&hl=en&gl=us&source=lnms&tbm=nws&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ_AUoAXoECAIQAw",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=when+did+Marlon+Brando+die%3F&tbm=nws"
+         },
+         {
+            "position":3,
+            "title":"Images",
+            "link":"https://www.google.com/search?q=when+did+Marlon+Brando+die%3F&num=5&hl=en&gl=us&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ_AUoAnoECAIQBA",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=when+did+Marlon+Brando+die%3F&tbm=isch"
+         },
+         {
+            "position":4,
+            "title":"Videos",
+            "link":"https://www.google.com/search?q=when+did+Marlon+Brando+die%3F&num=5&hl=en&gl=us&source=lnms&tbm=vid&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ_AUoA3oECAIQBQ",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=when+did+Marlon+Brando+die%3F&tbm=vid"
+         },
+         {
+            "position":5,
+            "title":"Shopping",
+            "link":"https://www.google.com/search?q=when+did+Marlon+Brando+die%3F&num=5&hl=en&gl=us&source=lnms&tbm=shop&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ_AUoBHoECAIQBg",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=when+did+Marlon+Brando+die%3F&tbm=shop"
+         }
+      ]
+   },
+   "knowledge_graph":{
+      "title":" Marlon Brando ",
+      "type":"American actor",
+      "description":"Marlon Brando Jr. was an American actor. Considered one of the most influential actors of the 20th century, he received numerous accolades throughout his career, which spanned six decades, including two Academy Awards, two Golden Globe Awards, one Cannes Film Festival Award and three British Academy Film Awards.",
+      "source":{
+         "name":"Wikipedia",
+         "link":"https://en.wikipedia.org/wiki/Marlon_Brando"
+      },
+      "born":"April 3, 1924, Omaha, NE",
+      "born_links":[
+         {
+            "text":"Omaha, NE",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Omaha,+Nebraska&stick=H4sIAAAAAAAAAOPgE-LQz9U3MImPT1MCs5Iziiq0xLKTrfQLUvMLclKBVFFxfp5VUn5R3iJWfv_cxIxEHQW_1KSixOLsxB2sjLvYmTgYAAFDnw9IAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQmxMoAHoECEwQAg"
+         }
+      ],
+      "died":"July 1, 2004, Ronald Reagan UCLA Medical Center, Los Angeles, CA",
+      "died_links":[
+         {
+            "text":"Ronald Reagan UCLA Medical Center, Los Angeles, CA",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Ronald+Reagan+UCLA+Medical+Center&stick=H4sIAAAAAAAAAOPgE-LQz9U3MImPT1PiBLPS0jMytOSzk630C1LzC3JS9VNSk1MTi1NT4gtSi4rz86xSMlNTFrEqBuXnJeakKASlJqYn5imEOvs4KvimpmQmJ-YoOKfmlaQW7WBl3MXOxMEAAGV0IzdkAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQmxMoAHoECEgQAg"
+         }
+      ],
+      "height":"5′ 9″",
+      "nationality":"American",
+      "spouse":"Tarita Teriipaia (m. 1962–1972), Movita Castaneda (m. 1960–1962), Anna Kashfi (m. 1957–1959)",
+      "spouse_links":[
+         {
+            "text":"Tarita Teriipaia",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Tarita+Teriipaia&stick=H4sIAAAAAAAAAOPgE-LQz9U3MImPT1PiBLNMzLMKtCSyk630C1LzC3JSgVRRcX6eVXFBfmlx6iJWgZDEosySRIWQ1KLMzILEzMQdrIy72Jk4GAGQxiXcTAAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQmxMoAHoECEcQAg"
+         },
+         {
+            "text":"Movita Castaneda",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Movita+Castaneda&stick=H4sIAAAAAAAAAOPgE-LQz9U3MImPT1PiBLHSkrIt8rQkspOt9AtS8wtyUoFUUXF-nlVxQX5pceoiVgHf_LLMkkQF58TiksS81JTEHayMu9iZOBgBdfShLEwAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQmxMoAXoECEcQAw"
+         },
+         {
+            "text":"Anna Kashfi",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Anna+Kashfi&stick=H4sIAAAAAAAAAOPgE-LQz9U3MImPT1PiArGMLEwNi6q0JLKTrfQLUvMLclKBVFFxfp5VcUF-aXHqIlZux7y8RAXvxOKMtMwdrIy72Jk4GAGW-IXiSAAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQmxMoAnoECEcQBA"
+         }
+      ],
+      "children":"Christian Brando, Cheyenne Brando, MORE",
+      "children_links":[
+         {
+            "text":"Christian Brando",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Christian+Brando&stick=H4sIAAAAAAAAAOPgE-LQz9U3MImPT1PiBLEsKtPNDbSkspOt9AtS8wtyUoFUUXF-nlVyRmZOSlFq3iJWAeeMoszikszEPAWnosS8lPwdrIy72Jk4GAHZ5plGTgAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQmxMoAHoECEYQAg"
+         },
+         {
+            "text":"Cheyenne Brando",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Cheyenne+Brando&stick=H4sIAAAAAAAAAOPgE-LQz9U3MImPT1PiBLHMzVLMkrSkspOt9AtS8wtyUoFUUXF-nlVyRmZOSlFq3iJWfueM1MrUvLxUBaeixLyU_B2sjLvYmTgYARUrY_dNAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQmxMoAXoECEYQAw"
+         },
+         {
+            "text":"MORE",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=marlon+brando+children&stick=H4sIAAAAAAAAAOPgE-LQz9U3MImPT9OSyk620i9IzS_ISQVSRcX5eVbJGZk5KUWpeYtYxXITi3Ly8xSSihLzUvIVYBIA3MS5LUEAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ44YBKAJ6BAhGEAQ"
+         }
+      ],
+      "people_also_search_for":[
+         {
+            "name":"James Caan (Trending)",
+            "extensions":[
+               "Trending"
+            ],
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=James+Caan&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLGMTI3SMrT4AlKLivPzgjNTUssTK4sXsXJ5JeamFis4JybmAQA0HXLcNAAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAgVEAY",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=James+Caan&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLGMTI3SMrT4AlKLivPzgjNTUssTK4sXsXJ5JeamFis4JybmAQA0HXLcNAAAAA",
+            "image":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/cfb1b7cf17996e94a470ba56910a54f274703fa0d70bd9d5bde4bc76b411e9a3746e6fe2ea53c1f9f74949464f2ea989.jpeg"
+         },
+         {
+            "name":"Al Pacino",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Al+Pacino&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1MCs5KyLLO1-AJSi4rz84IzU1LLEyuLF7FyOuYoBCQmZ-blAwAqoeQqMgAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAgVEAg",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=Al+Pacino&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1MCs5KyLLO1-AJSi4rz84IzU1LLEyuLF7FyOuYoBCQmZ-blAwAqoeQqMgAAAA",
+            "image":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/cfb1b7cf17996e94a470ba56910a54f274703fa0d70bd9d5bde4bc76b411e9a3b19c49d65fd65cc4242f4f67f3ac2ba5.jpeg"
+         },
+         {
+            "name":"Tarita Teriipaia",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Tarita+Teriipaia&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLNMzLMKtPgCUouK8_OCM1NSyxMrixexCoQkFmWWJCqEpBZlZhYkZiYCALDIAVo6AAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAgVEAo",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=Tarita+Teriipaia&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLNMzLMKtPgCUouK8_OCM1NSyxMrixexCoQkFmWWJCqEpBZlZhYkZiYCALDIAVo6AAAA",
+            "image":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/cfb1b7cf17996e94a470ba56910a54f274703fa0d70bd9d5bde4bc76b411e9a375799768dd389ca25b5fe6d5ef437932.jpeg"
+         },
+         {
+            "name":"Christian Brando",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Christian+Brando&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLEsKtPNDbT4AlKLivPzgjNTUssTK4sXsQo4ZxRlFpdkJuYpOBUl5qXkAwBn3ZJUOgAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAgVEAw",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=Christian+Brando&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLEsKtPNDbT4AlKLivPzgjNTUssTK4sXsQo4ZxRlFpdkJuYpOBUl5qXkAwBn3ZJUOgAAAA",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzH_X5OytANStlpjR1UxBelXOPNTYxhhJyTICyjEoOesrf4j9uwSQF5lt23kNXIBOd-Xh11g&s=0"
+         },
+         {
+            "name":"Sacheen Littlefeather",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Sacheen+Littlefeather&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLEMM8yrcrT4AlKLivPzgjNTUssTK4sXsYoGJyZnpKbmKfhklpTkpKalJpZkpBYBAH02mxU_AAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAgVEA4",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=Sacheen+Littlefeather&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLEMM8yrcrT4AlKLivPzgjNTUssTK4sXsYoGJyZnpKbmKfhklpTkpKalJpZkpBYBAH02mxU_AAAA",
+            "image":"https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSpx_1LBQswYtABAGayVuSHiNxXFpOYywd2P2fxr-Ju6YaXl5yegRHqM1E8_WQ0pOjScJSDO5TYkQN_E_Bhk8wV&s=19"
+         },
+         {
+            "name":"Cheyenne Brando",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Cheyenne+Brando&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLHMzVLMkrT4AlKLivPzgjNTUssTK4sXsfI7Z6RWpublpSo4FSXmpeQDABjyC705AAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAgVEBA",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=Cheyenne+Brando&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLHMzVLMkrT4AlKLivPzgjNTUssTK4sXsfI7Z6RWpublpSo4FSXmpeQDABjyC705AAAA",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcScwYA2PxISh83-dnqPxIClFzVC7czKvnj6KFXyfngHolY_I_22fcPx-8EsM6_fjKL7s-jA&s=0"
+         },
+         {
+            "name":"James Dean",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=James+Dean&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiArEMy42Nii20-AJSi4rz84IzU1LLEyuLF7FyeSXmphYruKQm5gEATEdO4DUAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAgVEBI",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=James+Dean&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiArEMy42Nii20-AJSi4rz84IzU1LLEyuLF7FyeSXmphYruKQm5gEATEdO4DUAAAA",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtFwmkb9tXJTdGoNXWAvJkiVVyCCLwCKxcJAKDvhr9Gbei74P3YPqyLPgY8shuR-vLeyby_w&s=0"
+         }
+      ],
+      "people_also_search_for_link":"https://www.google.com/search?num=5&hl=en&gl=us&q=+date+of+death&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1OCs7T4AlKLivPzgjNTUssTK4sXMWpkJ1vpF6TmF-Sk6qekJqcmFqemxBeAFVmlJJakKuSnKaSkJpZkLGLlU0ARAAD4OyeqYgAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQMSgAegQIFRAB",
+      "people_also_search_for_stick":"H4sIAAAAAAAAAONgFuLQz9U3MImPT1OCs7T4AlKLivPzgjNTUssTK4sXMWpkJ1vpF6TmF-Sk6qekJqcmFqemxBeAFVmlJJakKuSnKaSkJpZkLGLlU0ARAAD4OyeqYgAAAA",
+      "movies":[
+         {
+            "name":"The Godfather (1972)",
+            "extensions":[
+               "1972"
+            ],
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=The+Godfather&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLHM0w2Lc7V4A1KLivPzQvJ988syUxex8oZkpCq456ekJZZkpBYBAD5Z6Vc2AAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAhKEAM",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=The+Godfather&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLHM0w2Lc7V4A1KLivPzQvJ988syUxex8oZkpCq456ekJZZkpBYBAD5Z6Vc2AAAA",
+            "image":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/cfb1b7cf17996e94a470ba56910a54f2906bc66c8153cce5839b923aa973f5ff.jpeg"
+         },
+         {
+            "name":"Apocalypse Now (1979)",
+            "extensions":[
+               "1979"
+            ],
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Apocalypse+Now&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1NiB7Gyqsq1eANSi4rz80LyffPLMlMXsfI5FuQnJ-ZUFhSnKvjllwMARSTKJDUAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAhKEAU",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=Apocalypse+Now&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1NiB7Gyqsq1eANSi4rz80LyffPLMlMXsfI5FuQnJ-ZUFhSnKvjllwMARSTKJDUAAAA",
+            "image":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/cfb1b7cf17996e94a470ba56910a54f2946a008a96c25927aa774cacc49e85a8.jpeg"
+         },
+         {
+            "name":"A Streetcar Named Desire (1951)",
+            "extensions":[
+               "1951"
+            ],
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=A+Streetcar+Named+Desire&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLEszauSq7R4A1KLivPzQvJ988syUxexSjgqBJcUpaaWJCcWKfgl5qamKLikFmcWpQIA3vlMJkEAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAhKEAc",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=A+Streetcar+Named+Desire&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLEszauSq7R4A1KLivPzQvJ988syUxexSjgqBJcUpaaWJCcWKfgl5qamKLikFmcWpQIA3vlMJkEAAAA",
+            "image":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/cfb1b7cf17996e94a470ba56910a54f2af1eef8c6e1ae7b351914b072fd1e34f.jpeg"
+         },
+         {
+            "name":"Last Tango in Paris (1972)",
+            "extensions":[
+               "1972"
+            ],
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Last+Tango+in+Paris&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLEMTQuLsrV4A1KLivPzQvJ988syUxexCvskFpcohCTmpecrZOYpBCQWZRYDAALbXfs8AAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAhKEAk",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=Last+Tango+in+Paris&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLEMTQuLsrV4A1KLivPzQvJ988syUxexCvskFpcohCTmpecrZOYpBCQWZRYDAALbXfs8AAAA",
+            "image":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/cfb1b7cf17996e94a470ba56910a54f2519e49543fcb2d02d490872adb0ffdb9.jpeg"
+         },
+         {
+            "name":"The Godfather (1972)",
+            "extensions":[
+               "1972"
+            ],
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=The+Godfather&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLHM0w2Lc7V4A1KLivPzQvJ988syUxex8oZkpCq456ekJZZkpBYBAD5Z6Vc2AAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAhKEAM",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=The+Godfather&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLHM0w2Lc7V4A1KLivPzQvJ988syUxex8oZkpCq456ekJZZkpBYBAD5Z6Vc2AAAA",
+            "image":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/cfb1b7cf17996e94a470ba56910a54f262c2e60c457fa49c8532d089cdfe37ee.jpeg"
+         },
+         {
+            "name":"Apocalypse Now (1979)",
+            "extensions":[
+               "1979"
+            ],
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Apocalypse+Now&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1NiB7Gyqsq1eANSi4rz80LyffPLMlMXsfI5FuQnJ-ZUFhSnKvjllwMARSTKJDUAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAhKEAU",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=Apocalypse+Now&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1NiB7Gyqsq1eANSi4rz80LyffPLMlMXsfI5FuQnJ-ZUFhSnKvjllwMARSTKJDUAAAA",
+            "image":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/cfb1b7cf17996e94a470ba56910a54f241cd1642fb35c96cdb68940e69f7812a.jpeg"
+         },
+         {
+            "name":"A Streetcar Named Desire (1951)",
+            "extensions":[
+               "1951"
+            ],
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=A+Streetcar+Named+Desire&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLEszauSq7R4A1KLivPzQvJ988syUxexSjgqBJcUpaaWJCcWKfgl5qamKLikFmcWpQIA3vlMJkEAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAhKEAc",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=A+Streetcar+Named+Desire&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLEszauSq7R4A1KLivPzQvJ988syUxexSjgqBJcUpaaWJCcWKfgl5qamKLikFmcWpQIA3vlMJkEAAAA",
+            "image":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/cfb1b7cf17996e94a470ba56910a54f20bc7c74a37a5bed7c145e62b7407c021.jpeg"
+         },
+         {
+            "name":"Last Tango in Paris (1972)",
+            "extensions":[
+               "1972"
+            ],
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Last+Tango+in+Paris&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLEMTQuLsrV4A1KLivPzQvJ988syUxexCvskFpcohCTmpecrZOYpBCQWZRYDAALbXfs8AAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAhKEAk",
+            "serpapi_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=Last+Tango+in+Paris&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLEMTQuLsrV4A1KLivPzQvJ988syUxexCvskFpcohCTmpecrZOYpBCQWZRYDAALbXfs8AAAA",
+            "image":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/cfb1b7cf17996e94a470ba56910a54f2e50bf10c27af0b17d7930f1ba839e56a.jpeg"
+         }
+      ]
+   },
+   "inline_images":[
+      {
+         "source":"https://en.wikipedia.org/wiki/Marlon_Brando",
+         "thumbnail":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/bf4b9a5f2901a70b074b133d78363ff0a08fdabf027390c335d98a31ba862c4a.jpeg"
+      },
+      {
+         "source":"https://www.hollywoodreporter.com/news/general-news/marlon-brandos-real-last-tango-801232/",
+         "thumbnail":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/bf4b9a5f2901a70be4558ba6e8a30d18c0b2ed698c7339cf816a62d02b77c210.jpeg"
+      },
+      {
+         "source":"https://www.cbsnews.com/news/acting-legend-marlon-brando-dies/",
+         "thumbnail":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/bf4b9a5f2901a70b8f4726a66e934b8dff61b37a1a91dd68df7f0dafb1aa33df.jpeg"
+      },
+      {
+         "source":"https://www.usmagazine.com/entertainment/news/marlon-brandos-death-examined-in-autopsy-the-last-hours-of/",
+         "thumbnail":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/bf4b9a5f2901a70b863bb2ea392edcf53d4c854034cc93fbe5a9dbaa542b5a92.jpeg"
+      },
+      {
+         "source":"https://www.britannica.com/biography/Marlon-Brando",
+         "thumbnail":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/bf4b9a5f2901a70beae3864131fa9062042424b2921753c13f18002763ce4f66.jpeg"
+      },
+      {
+         "source":"https://ew.com/article/2004/07/02/marlon-brando-dies-80/",
+         "thumbnail":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/bf4b9a5f2901a70b7b6c3e03caa7bdd0fdf981dcdc09541ad94719a094b7d2b7.jpeg"
+      },
+      {
+         "source":"https://www.biography.com/actor/marlon-brando",
+         "thumbnail":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/bf4b9a5f2901a70bd63faccd82d49fe1dff132214beb6a58680709cbcb37d5ea.jpeg"
+      }
+   ],
+   "answer_box":{
+      "type":"organic_result",
+      "title":"Marlon Brando/Date of death",
+      "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=+date+of+death&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1OCs7T4AlKLivPzgjNTUssTK4sXMWpkJ1vpF6TmF-Sk6qekJqcmFqemxBeAFVmlJJakKuSnKaSkJpZkLGLlU0ARAAD4OyeqYgAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQMSgAegQIFRAB",
+      "answer":"July 1, 2004",
+      "thumbnail":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/e9c19402f3d161918df42a75d524ec4b09b3fb48562d711c.jpeg",
+      "people_also_search_for":[
+         {
+            "name":"James Caan",
+            "image":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/e9c19402f3d16191042715abd7781f643fa53d1f4d8a31a92e168bee56a6ad80aeeca4996be4b6675c482d13e7401c05.jpeg",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=James+Caan&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLGMTI3SMrT4AlKLivPzgjNTUssTK4sXsXJ5JeamFis4JybmAQA0HXLcNAAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAgVEAY"
+         },
+         {
+            "name":"Al Pacino",
+            "image":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/e9c19402f3d16191042715abd7781f643fa53d1f4d8a31a92e168bee56a6ad80c8e0bb25666b7bb0d9c8782bb9e05e43.jpeg",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Al+Pacino&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1MCs5KyLLO1-AJSi4rz84IzU1LLEyuLF7FyOuYoBCQmZ-blAwAqoeQqMgAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAgVEAg"
+         },
+         {
+            "name":"Tarita Teriipaia",
+            "image":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/e9c19402f3d16191042715abd7781f643fa53d1f4d8a31a92e168bee56a6ad80811be5a95efc578c7ca0b4953f4508b9.jpeg",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Tarita+Teriipaia&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLNMzLMKtPgCUouK8_OCM1NSyxMrixexCoQkFmWWJCqEpBZlZhYkZiYCALDIAVo6AAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAgVEAo"
+         },
+         {
+            "name":"Christian Brando",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzH_X5OytANStlpjR1UxBelXOPNTYxhhJyTICyjEoOesrf4j9uwSQF5lt23kNXIBOd-Xh11g&s=0",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Christian+Brando&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLEsKtPNDbT4AlKLivPzgjNTUssTK4sXsQo4ZxRlFpdkJuYpOBUl5qXkAwBn3ZJUOgAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAgVEAw"
+         },
+         {
+            "name":"Sacheen Littlefeather",
+            "image":"https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSpx_1LBQswYtABAGayVuSHiNxXFpOYywd2P2fxr-Ju6YaXl5yegRHqM1E8_WQ0pOjScJSDO5TYkQN_E_Bhk8wV&s=19",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Sacheen+Littlefeather&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLEMM8yrcrT4AlKLivPzgjNTUssTK4sXsYoGJyZnpKbmKfhklpTkpKalJpZkpBYBAH02mxU_AAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAgVEA4"
+         },
+         {
+            "name":"Cheyenne Brando",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcScwYA2PxISh83-dnqPxIClFzVC7czKvnj6KFXyfngHolY_I_22fcPx-8EsM6_fjKL7s-jA&s=0",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Cheyenne+Brando&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiBLHMzVLMkrT4AlKLivPzgjNTUssTK4sXsfI7Z6RWpublpSo4FSXmpeQDABjyC705AAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAgVEBA"
+         },
+         {
+            "name":"James Dean",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtFwmkb9tXJTdGoNXWAvJkiVVyCCLwCKxcJAKDvhr9Gbei74P3YPqyLPgY8shuR-vLeyby_w&s=0",
+            "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=James+Dean&stick=H4sIAAAAAAAAAONgFuLQz9U3MImPT1PiArEMy42Nii20-AJSi4rz84IzU1LLEyuLF7FyeSXmphYruKQm5gEATEdO4DUAAAA&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQxA16BAgVEBI"
+         }
+      ]
+   },
+   "organic_results":[
+      {
+         "position":1,
+         "title":"Marlon Brando - Wikipedia",
+         "link":"https://en.wikipedia.org/wiki/Marlon_Brando",
+         "displayed_link":"https://en.wikipedia.org › wiki › Marlon_Brando",
+         "snippet":"Marlon Brando ; July 1, 2004(2004-07-01) (aged 80). Los Angeles, California, U.S. · Actor; film director; activist · 1944–2004 · Full list.",
+         "snippet_highlighted_words":[
+            "July 1, 2004(2004-07-01"
+         ],
+         "sitelinks":{
+            "inline":[
+               {
+                  "title":"Marlon Brando filmography",
+                  "link":"https://en.wikipedia.org/wiki/Marlon_Brando_filmography"
+               },
+               {
+                  "title":"Cheyenne Brando",
+                  "link":"https://en.wikipedia.org/wiki/Cheyenne_Brando"
+               },
+               {
+                  "title":"Christian Brando",
+                  "link":"https://en.wikipedia.org/wiki/Christian_Brando"
+               },
+               {
+                  "title":"List of awards",
+                  "link":"https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Marlon_Brando"
+               }
+            ]
+         },
+         "rich_snippet":{
+            "bottom":{
+               "detected_extensions":{
+                  "died_july_aged_los_angeles_cal":1,
+                  "years_active":1944
+               },
+               "extensions":[
+                  "Died: July 1, 2004 (aged 80); Los Angeles\u200e, \u200eCal...\u200e",
+                  "Relatives: Jocelyn Brando (sister); \u200eD. A. Penne...\u200e",
+                  "Years active: 1944–2004",
+                  "Works: Full list"
+               ]
+            }
+         },
+         "about_this_result":{
+            "source":{
+               "description":"Wikipedia is a multilingual free online encyclopedia written and maintained by a community of volunteers through open collaboration and a wiki-based editing system. Its editors are known as Wikipedians. Wikipedia is the largest and most-read reference work in history.",
+               "source_info_link":"https://en.wikipedia.org/wiki/Marlon_Brando",
+               "security":"secure",
+               "icon":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/bd75391a9b42c33b8830efaca4acad2948239c441e4d6c41392ff9d5d3617b68e800be57a87e12d3100adf7f9267d8a4.png"
+            }
+         },
+         "about_page_link":"https://www.google.com/search?q=About+https://en.wikipedia.org/wiki/Marlon_Brando&tbm=ilp&ilps=ADNMCi35e0AgoV-ZK1muy5pQsLGPMX8_YQ",
+         "about_page_serpapi_link":"https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi35e0AgoV-ZK1muy5pQsLGPMX8_YQ&q=About+https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMarlon_Brando",
+         "cached_page_link":"https://webcache.googleusercontent.com/search?q=cache:NT1lbKXH_0AJ:https://en.wikipedia.org/wiki/Marlon_Brando&cd=11&hl=en&ct=clnk&gl=us",
+         "related_pages_link":"https://www.google.com/search?hl=en&gl=us&q=related:https://en.wikipedia.org/wiki/Marlon_Brando+when+did+Marlon+Brando+die%3F"
+      },
+      {
+         "position":2,
+         "title":"Marlon Brando | Biography, Movies, Assessment, & Facts",
+         "link":"https://www.britannica.com/biography/Marlon-Brando",
+         "displayed_link":"https://www.britannica.com › ... › Actors",
+         "snippet":"Marlon Brando, in full Marlon Brando, Jr., (born April 3, 1924, Omaha, Nebraska, U.S.—died July 1, 2004, Los Angeles, California), American motion picture ...",
+         "snippet_highlighted_words":[
+            "U.S.—died July 1, 2004"
+         ],
+         "rich_snippet":{
+            "bottom":{
+               "detected_extensions":{
+                  "died_july_aged_los_angeles_calif":1,
+                  "born_april_omaha_nebraska":3
+               },
+               "extensions":[
+                  "Died: July 1, 2004 (aged 80) Los Angeles\u200e \u200eCalif...\u200e",
+                  "Subjects Of Study: “Listen to Me Marlon”",
+                  "Born: April 3, 1924 Omaha Nebraska"
+               ]
+            }
+         },
+         "about_this_result":{
+            "source":{
+               "description":"britannica.com was first indexed by Google more than 10 years ago",
+               "source_info_link":"https://www.britannica.com/biography/Marlon-Brando",
+               "security":"secure",
+               "icon":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/bd75391a9b42c33b8830efaca4acad292564744aa0fc6e11cde3607634404de8983917e42b4a4f5950fa62f6d2027d2e.png"
+            }
+         },
+         "about_page_link":"https://www.google.com/search?q=About+https://www.britannica.com/biography/Marlon-Brando&tbm=ilp&ilps=ADNMCi0ts1zVmwkBnhayGY0RGwJKIScyMg",
+         "about_page_serpapi_link":"https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi0ts1zVmwkBnhayGY0RGwJKIScyMg&q=About+https%3A%2F%2Fwww.britannica.com%2Fbiography%2FMarlon-Brando",
+         "cached_page_link":"https://webcache.googleusercontent.com/search?q=cache:apXBzidO7UEJ:https://www.britannica.com/biography/Marlon-Brando&cd=12&hl=en&ct=clnk&gl=us",
+         "related_pages_link":"https://www.google.com/search?hl=en&gl=us&q=related:https://www.britannica.com/biography/Marlon-Brando+when+did+Marlon+Brando+die%3F"
+      },
+      {
+         "position":3,
+         "title":"Marlon Brando's Death Examined in 'Autopsy... The Last ...",
+         "link":"https://www.usmagazine.com/entertainment/news/marlon-brandos-death-examined-in-autopsy-the-last-hours-of/",
+         "displayed_link":"https://www.usmagazine.com › entertainment › news",
+         "date":"Aug 12, 2020",
+         "snippet":"Marlon Brando was admitted to a Los Angeles hospital with a rare respiratory disease in 2004 and died at the age of 80.",
+         "snippet_highlighted_words":[
+            "2004"
+         ],
+         "about_this_result":{
+            "source":{
+               "description":"Us Weekly is a weekly celebrity and entertainment magazine based in New York City. Us Weekly was founded in 1977 by The New York Times Company, who sold it in 1980. It was acquired by Wenner Media in 1986, and sold to American Media Inc. in 2017.",
+               "source_info_link":"https://www.usmagazine.com/entertainment/news/marlon-brandos-death-examined-in-autopsy-the-last-hours-of/",
+               "security":"secure",
+               "icon":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/bd75391a9b42c33b8830efaca4acad29f8aed9a2a5b7374c7ead7c64f07e29d615cdfab0f49e0d9083cb870097f69e6d.png"
+            }
+         },
+         "about_page_link":"https://www.google.com/search?q=About+https://www.usmagazine.com/entertainment/news/marlon-brandos-death-examined-in-autopsy-the-last-hours-of/&tbm=ilp&ilps=ADNMCi0iPh-IsTMu4LC-ZIYXoLSOnkqHEg",
+         "about_page_serpapi_link":"https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi0iPh-IsTMu4LC-ZIYXoLSOnkqHEg&q=About+https%3A%2F%2Fwww.usmagazine.com%2Fentertainment%2Fnews%2Fmarlon-brandos-death-examined-in-autopsy-the-last-hours-of%2F",
+         "cached_page_link":"https://webcache.googleusercontent.com/search?q=cache:gt3cgTmZg1oJ:https://www.usmagazine.com/entertainment/news/marlon-brandos-death-examined-in-autopsy-the-last-hours-of/&cd=13&hl=en&ct=clnk&gl=us"
+      },
+      {
+         "position":4,
+         "title":"Marlon Brando, the Hollywood icon, dead at 80 in 2004",
+         "link":"https://www.nydailynews.com/entertainment/movies/marlon-brando-maverick-icon-dead-80-2004-article-1.578538",
+         "displayed_link":"https://www.nydailynews.com › entertainment › movies",
+         "date":"Jul 1, 2016",
+         "snippet":"Marlon Brando who starred as Don Vito Corleone in \"The Godfather,\" died at the age of 80 in Los Angeles, California ...",
+         "snippet_highlighted_words":[
+            "80"
+         ],
+         "about_this_result":{
+            "source":{
+               "description":"The New York Daily News, officially titled the Daily News, is an American newspaper based in Jersey City, NJ. It was founded in 1919 by Joseph Medill Patterson as the Illustrated Daily News. It was the first U.S. daily printed in tabloid format. It reached its peak circulation in 1947, at 2.4 million copies a day.",
+               "source_info_link":"https://www.nydailynews.com/entertainment/movies/marlon-brando-maverick-icon-dead-80-2004-article-1.578538",
+               "security":"secure",
+               "icon":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/bd75391a9b42c33b8830efaca4acad296899a8abb431b4ef92e73954f783add6ca048b70c5d5cb2ae961d6695c00e337.png"
+            }
+         },
+         "about_page_link":"https://www.google.com/search?q=About+https://www.nydailynews.com/entertainment/movies/marlon-brando-maverick-icon-dead-80-2004-article-1.578538&tbm=ilp&ilps=ADNMCi0kxJi-24Ad_4NMIm6TfKeR3TRnmA",
+         "about_page_serpapi_link":"https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi0kxJi-24Ad_4NMIm6TfKeR3TRnmA&q=About+https%3A%2F%2Fwww.nydailynews.com%2Fentertainment%2Fmovies%2Fmarlon-brando-maverick-icon-dead-80-2004-article-1.578538"
+      },
+      {
+         "position":5,
+         "title":"Marlon Brando - Movies, The Godfather & Facts - Biography",
+         "link":"https://www.biography.com/actor/marlon-brando",
+         "displayed_link":"https://www.biography.com › actor › marlon-brando",
+         "date":"Apr 27, 2017",
+         "snippet":"The actor died of pulmonary fibrosis in a Los Angeles hospital in 2004 at the age of 80. But to judge Brando by his appearance and dismiss his ...",
+         "snippet_highlighted_words":[
+            "2004"
+         ],
+         "about_this_result":{
+            "source":{
+               "description":"biography.com was first indexed by Google more than 10 years ago",
+               "source_info_link":"https://www.biography.com/actor/marlon-brando",
+               "security":"secure",
+               "icon":"https://serpapi.com/searches/636910ba116a55d24c24902d/images/bd75391a9b42c33b8830efaca4acad295661f6ea94705b5f56609be508fb6b82ff45e0dd9770f22b518135bb07982d16.png"
+            }
+         },
+         "about_page_link":"https://www.google.com/search?q=About+https://www.biography.com/actor/marlon-brando&tbm=ilp&ilps=ADNMCi2E6wm9i98lS2vxvVBwJnskKuoLQQ",
+         "about_page_serpapi_link":"https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi2E6wm9i98lS2vxvVBwJnskKuoLQQ&q=About+https%3A%2F%2Fwww.biography.com%2Factor%2Fmarlon-brando",
+         "cached_page_link":"https://webcache.googleusercontent.com/search?q=cache:ZqWq9SEXsnUJ:https://www.biography.com/actor/marlon-brando&cd=15&hl=en&ct=clnk&gl=us"
+      }
+   ],
+   "related_searches":[
+      {
+         "query":"marlon brando last words",
+         "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Marlon+Brando+last+words&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ1QJ6BAgwEAE"
+      },
+      {
+         "query":"marlon brando net worth",
+         "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Marlon+Brando+Net+worth&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ1QJ6BAgtEAE"
+      },
+      {
+         "query":"how old was marlon brando when he died",
+         "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=How+old+was+Marlon+Brando+when+he+died&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ1QJ6BAgsEAE"
+      },
+      {
+         "query":"marlon brando last movie",
+         "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Marlon+Brando+last+movie&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ1QJ6BAgvEAE"
+      },
+      {
+         "query":"marlon brando age",
+         "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Marlon+Brando+age&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ1QJ6BAg0EAE"
+      },
+      {
+         "query":"marlon brando wiki",
+         "link":"https://www.google.com/search?num=5&hl=en&gl=us&q=Marlon+Brando+Wiki&sa=X&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ1QJ6BAguEAE"
+      }
+   ],
+   "pagination":{
+      "current":1,
+      "next":"https://www.google.com/search?q=when+did+Marlon+Brando+die%3F&num=5&hl=en&gl=us&ei=uhBpY4eRO4qj5NoPi_CKyAw&start=5&sa=N&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ8NMDegQIARAW",
+      "other_pages":{
+         "2":"https://www.google.com/search?q=when+did+Marlon+Brando+die%3F&num=5&hl=en&gl=us&ei=uhBpY4eRO4qj5NoPi_CKyAw&start=5&sa=N&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ8tMDegQIARAE",
+         "3":"https://www.google.com/search?q=when+did+Marlon+Brando+die%3F&num=5&hl=en&gl=us&ei=uhBpY4eRO4qj5NoPi_CKyAw&start=10&sa=N&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ8tMDegQIARAG",
+         "4":"https://www.google.com/search?q=when+did+Marlon+Brando+die%3F&num=5&hl=en&gl=us&ei=uhBpY4eRO4qj5NoPi_CKyAw&start=15&sa=N&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ8tMDegQIARAI",
+         "5":"https://www.google.com/search?q=when+did+Marlon+Brando+die%3F&num=5&hl=en&gl=us&ei=uhBpY4eRO4qj5NoPi_CKyAw&start=20&sa=N&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ8tMDegQIARAK",
+         "6":"https://www.google.com/search?q=when+did+Marlon+Brando+die%3F&num=5&hl=en&gl=us&ei=uhBpY4eRO4qj5NoPi_CKyAw&start=25&sa=N&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ8tMDegQIARAM",
+         "7":"https://www.google.com/search?q=when+did+Marlon+Brando+die%3F&num=5&hl=en&gl=us&ei=uhBpY4eRO4qj5NoPi_CKyAw&start=30&sa=N&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ8tMDegQIARAO",
+         "8":"https://www.google.com/search?q=when+did+Marlon+Brando+die%3F&num=5&hl=en&gl=us&ei=uhBpY4eRO4qj5NoPi_CKyAw&start=35&sa=N&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ8tMDegQIARAQ",
+         "9":"https://www.google.com/search?q=when+did+Marlon+Brando+die%3F&num=5&hl=en&gl=us&ei=uhBpY4eRO4qj5NoPi_CKyAw&start=40&sa=N&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ8tMDegQIARAS",
+         "10":"https://www.google.com/search?q=when+did+Marlon+Brando+die%3F&num=5&hl=en&gl=us&ei=uhBpY4eRO4qj5NoPi_CKyAw&start=45&sa=N&ved=2ahUKEwiH1qPcnpz7AhWKEVkFHQu4AskQ8tMDegQIARAU"
+      }
+   },
+   "serpapi_pagination":{
+      "current":1,
+      "next_link":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=when+did+Marlon+Brando+die%3F&start=5",
+      "next":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=when+did+Marlon+Brando+die%3F&start=5",
+      "other_pages":{
+         "2":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=when+did+Marlon+Brando+die%3F&start=5",
+         "3":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=when+did+Marlon+Brando+die%3F&start=10",
+         "4":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=when+did+Marlon+Brando+die%3F&start=15",
+         "5":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=when+did+Marlon+Brando+die%3F&start=20",
+         "6":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=when+did+Marlon+Brando+die%3F&start=25",
+         "7":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=when+did+Marlon+Brando+die%3F&start=30",
+         "8":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=when+did+Marlon+Brando+die%3F&start=35",
+         "9":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=when+did+Marlon+Brando+die%3F&start=40",
+         "10":"https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&num=5&q=when+did+Marlon+Brando+die%3F&start=45"
+      }
+   }
+}

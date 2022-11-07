@@ -74,19 +74,24 @@ def serp_api_search(search_term, serp_api_token, url, verbosity=0):
         a list of tuples of the form (url, text)
     """
 
-    file_name = "serpapi_search_results_moodle.json"
+    #file_name = None
+    file_name = "serpapi_search_results_marlon-brando.json"
+    #file_name = "serpapi_search_results_moodle.json"
     #file_name = "serpapi_search_results.json"
-    if verbosity > 1:
-        pretty_print("OKGREEN", f"Load JSON file: {file_name}")
-    #json_file = open(file_name)
-    #results = json.load(json_file)
-    #json_file.close()
 
-    response = serp_api_google_search(search_term, serp_api_token, url)
-    results = response.get_dict()
+    results = None
 
-    if verbosity > 1:
-        pretty_print("OKGREEN", f"Search results from SerpAPI/Google: {results}")
+    if file_name != None:
+        if verbosity > 1:
+            pretty_print("OKGREEN", f"Load local JSON file: {file_name}")
+        json_file = open(file_name)
+        results = json.load(json_file)
+        json_file.close()
+    else:
+        response = serp_api_google_search(search_term, serp_api_token, url)
+        results = response.get_dict()
+        if verbosity > 1:
+            pretty_print("OKGREEN", f"Search results from SerpAPI/Google: {results}")
 
     response_urls = []
     text = ""

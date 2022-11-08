@@ -77,6 +77,7 @@ def serp_api_search(search_term, serp_api_token, url, verbosity=0):
     file_name = None
     #file_name = "serpapi_search_results_marlon-brando.json"
     #file_name = "serpapi_search_results_moodle.json"
+    #file_name = "serpapi_search_results_moodle_2.json"
     #file_name = "serpapi_search_results.json"
 
     results = None

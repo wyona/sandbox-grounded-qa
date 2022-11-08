@@ -33,11 +33,9 @@ def getAnswer():
     question = request.json['question']
     logger.info(f"Get answer to question '{question}' ...")
 
-    answer = bot.answer(question, verbosity=args.verbosity, n_paragraphs=2)
-    relevant_paragraph = "TODO_PARA"
-    source = "TODO_SOURCE"
+    answer, sources, relevant_paragraphs = bot.answer(question, verbosity=args.verbosity, n_paragraphs=2)
 
-    response = {'answer': answer, 'relevant_paragraphs': relevant_paragraph, 'source': source}
+    response = {'answer': answer, 'relevant_paragraphs': relevant_paragraphs, 'sources': sources}
     return jsonify(response), 200
 
 # Health check endpoint

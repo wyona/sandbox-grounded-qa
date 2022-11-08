@@ -24,4 +24,4 @@ if __name__ == "__main__":
     while True:
         question = input("question: ")
         reply, sources, texts = bot.answer(question, verbosity=args.verbosity, n_paragraphs=2)
-        print("answer: " + reply + "\nSource(s):\n" + sources)
+        print("answer: " + reply + "\nSource:\n" + sources)

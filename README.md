@@ -74,7 +74,7 @@ curl --request POST --url http://localhost:5007/api/v1/ask --header 'content-typ
 4. (Optional) Run the discord bot demo:  
 You can create a discord both with this functionality by creating a bot account with message read and write permissions at https://discord.com/developers then running the following command
 ```sh
-python3 cli_demo.py --cohere_api_key <API_KEY> --serp_api_key <API_KEY> --discord_key <DISCORD_KEY>
+python3 discord_bot.py --cohere_api_key <API_KEY> --serp_api_key <API_KEY> --discord_key <DISCORD_KEY>
 ```
 
 # Get support

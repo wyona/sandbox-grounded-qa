@@ -56,15 +56,17 @@ class GroundedQaBot():
         elif answer_text.strip() == question.strip():
             reply = ("I had trouble answering the question, but maybe this link on " "the right will help.")
         else:
-            source_texts_str = "\n".join(list(set(source_texts)))
-            sources_str = "\n".join(list(set(source_urls)))
             reply = f"{answer_text}"
             if verbosity > 1:
-                pretty_print("BOLD", f"Source urls:")
-                pretty_print("OKGREEN", f"{sources_str}")
-                pretty_print("BOLD", f"Source texts:")
-                pretty_print("OKGREEN", f"{source_texts_str}")
                 pretty_print("BOLD", f"Generated answer:")
                 pretty_print("OKGREEN", f"{answer_text}")
+
+        source_texts_str = "\n".join(list(set(source_texts)))
+        sources_str = "\n".join(list(set(source_urls)))
+        if verbosity > 1:
+            pretty_print("BOLD", f"Source urls:")
+            pretty_print("OKGREEN", f"{sources_str}")
+            pretty_print("BOLD", f"Source texts:")
+            pretty_print("OKGREEN", f"{source_texts_str}")
 
         return (reply, sources_str, source_texts_str)

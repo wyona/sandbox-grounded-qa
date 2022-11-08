@@ -14,4 +14,10 @@ COPY rest_demo.py .
   
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-CMD [ "python", "./rest_demo.py", "--cohere_api_key", "TODO", "--serp_api_key", "TODO", "--verbosity", "2" ]
+ARG COHERE_API_KEY
+ENV COHERE_API_KEY=$COHERE_API_KEY
+ARG SERP_API_KEY
+ENV SERP_API_KEY=$SERP_API_KEY
+
+CMD [ "sh", "-c", "echo $COHERE_API_KEY; python rest_demo.py --cohere_api_key $COHERE_API_KEY --serp_api_key $SERP_API_KEY --verbosity 2" ]
+#CMD [ "python", "./rest_demo.py", "--cohere_api_key", "$COHERE_API_KEY", "--serp_api_key", "$SERP_API_KEY", "--verbosity", "2" ]

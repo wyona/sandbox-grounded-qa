@@ -146,6 +146,7 @@ def get_paragraphs_text_from_url(k):
 
     i, search_result_url = k
     try:
+        pretty_print("OKGREEN", f"Load data from '{search_result_url}' ...")
         html = open_link(search_result_url)
         return paragraphs_from_html(html)
     except Exception as e:
@@ -164,6 +165,7 @@ def get_results_paragraphs_multi_process(search_term, serp_api_token, url=None, 
     results = serp_api_search(search_term, serp_api_token, url, verbosity)
 
     if not results:
+        pretty_print("FAIL", f"No search results")
         return [], []
 
     urls = [r[0] for r in results][:5]
@@ -175,6 +177,7 @@ def get_results_paragraphs_multi_process(search_term, serp_api_token, url=None, 
             result = res.get(timeout=3)
             return result
         except TimeoutError:
+            pretty_print("FAIL", f"Timeout Error!")
             return []
 
     pool = Pool(len(urls))
@@ -184,6 +187,7 @@ def get_results_paragraphs_multi_process(search_term, serp_api_token, url=None, 
     paragraphs = []
     paragraph_sources = []
     for i in range(len(url_paragraphs)):
+        pretty_print("OKGREEN", f"Append paragraph '{url_paragraphs[i]}' ...")
         paragraphs += url_paragraphs[i]
         paragraph_sources += [urls[i]] * len(url_paragraphs[i])
     return paragraphs, paragraph_sources

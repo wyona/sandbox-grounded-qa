@@ -19,6 +19,8 @@ _DATA_DIRNAME = os.path.join(os.path.dirname(__file__), "prompt_data")
 
 def get_contextual_search_query(history, co, model="xlarge", verbosity=0):
     """Adds message history context to user query."""
+    if verbosity > 1:
+        pretty_print("OKGREEN", f"Get contextual search query for user input history '{history}' ...")
 
     prompt_path = os.path.join(_DATA_DIRNAME, "get_contextual_search_query.prompt")
     with open(prompt_path) as f:

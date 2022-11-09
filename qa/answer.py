@@ -68,10 +68,13 @@ def answer_with_search(question,
 
     paragraphs, paragraph_sources = get_results_paragraphs_multi_process(question, serp_api_token, url=url, verbosity=verbosity)
     if not paragraphs:
+        pretty_print("FAIL", f"No paragraphs retrieved!")
         return ("", "", "")
     sample_answer = get_sample_answer(question, co)
+    if verbosity > 1:
+        pretty_print("OKGREEN", f"Sample answer: {sample_answer}")
 
-    results = embedding_search(paragraphs, paragraph_sources, sample_answer, co, model=embedding_model)
+    results = embedding_search(paragraphs, paragraph_sources, sample_answer, co, model=embedding_model, verbosity=verbosity)
 
     if verbosity > 1:
         pprint_results = "\n".join([r[0] for r in results])

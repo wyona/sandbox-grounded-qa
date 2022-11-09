@@ -189,8 +189,11 @@ def get_results_paragraphs_multi_process(search_term, serp_api_token, url=None, 
     return paragraphs, paragraph_sources
 
 
-def embedding_search(paragraphs, paragraph_sources, search_term, co, model="small"):
+def embedding_search(paragraphs, paragraph_sources, search_term, co, model="small", verbosity=0):
     """Embed paragraphs and search for the closest ones to a query."""
+
+    if verbosity > 1:
+        pretty_print("OKGREEN", f"Get embeddings for paragraphs and search term '{search_term}' ...")
 
     embeddings = co.embed(texts=paragraphs + [search_term], model=model, truncate="LEFT").embeddings
     paragraph_embeddings = embeddings[:-1]

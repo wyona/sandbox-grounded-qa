@@ -187,7 +187,8 @@ def get_results_paragraphs_multi_process(search_term, serp_api_token, url=None, 
     paragraphs = []
     paragraph_sources = []
     for i in range(len(url_paragraphs)):
-        pretty_print("OKGREEN", f"Append paragraph '{url_paragraphs[i]}' ...")
+        if verbosity > 1:
+            pretty_print("OKGREEN", f"Append paragraph '{url_paragraphs[i]}' ...")
         paragraphs += url_paragraphs[i]
         paragraph_sources += [urls[i]] * len(url_paragraphs[i])
     return paragraphs, paragraph_sources

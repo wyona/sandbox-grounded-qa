@@ -1,11 +1,14 @@
 version: "3.3"
 services:
-  sbert:
+  cohere-grounded-qa:
     image: cohere-grounded-qa
     #image: michaelwechner/wyona:cohere-grounded-qa-1.0.0
     #image: ${DOCKER_IMAGE_TAG}
     container_name: cohere-grounded-qa
     restart: always
+    # Please configure directory containing file serpapi_search_results.json instead getting URLs from SerpAPI itself
+    volumes:
+      - /directory/containing/serpapi/dumps:/serpapi-dumps
     environment:
       - COHERE_API_KEY=REPLACE_THIS_STRING_BY_API_KEY
       - SERP_API_KEY=REPLACE_THIS_STRING_BY_API_KEY

@@ -122,6 +122,8 @@ def open_link(url):
         "User-Agent": user_agent,
     }
 
+    pretty_print("OKGREEN", f"Open link '{url}' ...")
+
     request = urllib.request.Request(url, None, headers)  # The assembled request
     response = urllib.request.urlopen(request)
     return response
@@ -129,6 +131,8 @@ def open_link(url):
 
 def paragraphs_from_html(body):
     """Extract a list of paragraphs from the html."""
+
+    pretty_print("OKGREEN", f"Extract content from HTML '{body}' ...")
 
     soup = BeautifulSoup(body, "html.parser")
     paragraphs = []
@@ -144,10 +148,11 @@ def get_paragraphs_text_from_url(k):
 
     i, search_result_url = k
     try:
-        pretty_print("OKGREEN", f"Load data from '{search_result_url}' ...")
+        pretty_print("OKGREEN", f"Try to load data from '{search_result_url}' ...")
         html = open_link(search_result_url)
         return paragraphs_from_html(html)
     except Exception as e:
+        pretty_print("FAIL", f"ERROR: Page '{search_result_url}' could not be loaded!")
         return []
 
 

@@ -74,7 +74,11 @@ def serp_api_search(search_term, serp_api_token, url, verbosity=0):
         a list of tuples of the form (url, text)
     """
 
-    file_name_serpapi_dump = "serpapi_search_results.json"
+    # When running "grounded qa" as Docker, then check directory /serpapi-dumps
+    file_name_serpapi_dump = "/serpapi-dumps/serpapi_search_results.json"
+    if os.path.isfile("serpapi_search_results.json"):
+        # When running "grounded qa" from the command line, then check current directory
+        file_name_serpapi_dump = "serpapi_search_results.json"
 
     results = None
 

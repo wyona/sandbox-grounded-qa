@@ -74,18 +74,16 @@ def serp_api_search(search_term, serp_api_token, url, verbosity=0):
         a list of tuples of the form (url, text)
     """
 
-    file_name = None
-    #file_name = "serpapi_search_results_marlon-brando.json"
-    #file_name = "serpapi_search_results_moodle.json"
-    #file_name = "serpapi_search_results_moodle_2.json"
-    #file_name = "serpapi_search_results.json"
+    file_name_serpapi_dump = "serpapi_search_results.json"
 
     results = None
 
-    if file_name != None:
+    if verbosity > 1:
+        pretty_print("OKGREEN", f"Check whether SerpAPI dump file exists '{file_name_serpapi_dump}' ...")
+    if os.path.isfile(file_name_serpapi_dump):
         if verbosity > 1:
-            pretty_print("OKGREEN", f"Load local JSON file: {file_name}")
-        json_file = open(file_name)
+            pretty_print("OKGREEN", f"Load local JSON file: {file_name_serpapi_dump}")
+        json_file = open(file_name_serpapi_dump)
         results = json.load(json_file)
         json_file.close()
     else:

@@ -152,7 +152,7 @@ def get_paragraphs_text_from_url(k):
         html = open_link(search_result_url)
         return paragraphs_from_html(html)
     except Exception as e:
-        pretty_print("FAIL", f"ERROR: Page '{search_result_url}' could not be loaded!")
+        pretty_print("FAIL", f"ERROR: Page '{search_result_url}' could not be loaded! Exception: {e}")
         return []
 
 

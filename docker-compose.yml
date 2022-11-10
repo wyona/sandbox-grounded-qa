@@ -9,5 +9,6 @@ services:
     environment:
       - COHERE_API_KEY=REPLACE_THIS_STRING_BY_API_KEY
       - SERP_API_KEY=REPLACE_THIS_STRING_BY_API_KEY
+      - VERBOSITY=2
     ports:
       - 5007:5007

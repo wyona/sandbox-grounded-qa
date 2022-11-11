@@ -25,6 +25,7 @@ logger.setLevel(logging.INFO)
 
 # Get answer to question
 # curl --request POST --url http://localhost:5007/api/v1/ask --header 'content-type: application/json' --data '{ "question":"What is the capital of Brazil?" }'
+# curl --request POST --url http://localhost:5007/api/v1/ask --header 'content-type: application/json' --data '{ "question":"What is the capital of Brazil?","site-url":"https://docs.cohere.ai/" }'
 # TODO: "site-url":"https://moodle.org"
 @app.route('/api/v1/ask', methods=['POST'])
 def getAnswer():
@@ -33,7 +34,14 @@ def getAnswer():
     question = request.json['question']
     logger.info(f"Get answer to question '{question}' ...")
 
-    answer, sources, relevant_paragraphs = bot.answer(question, verbosity=args.verbosity, n_paragraphs=2)
+    site_url = None
+    #site_url = "https://weaviate.io"
+    #site_url = "https://moodle.org"
+    if 'site-url' in request.json:
+        site_url = request.json['site-url']
+    logger.info(f"Provided site URL: {site_url}")
+
+    answer, sources, relevant_paragraphs = bot.answer(question, verbosity=args.verbosity, n_paragraphs=2, url=site_url)
 
     response = {'answer': answer, 'relevant_paragraphs': relevant_paragraphs, 'sources': sources}
     return jsonify(response), 200

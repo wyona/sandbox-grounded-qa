@@ -39,9 +39,6 @@ class GroundedQaBot():
         history = "\n".join(self.chat_history[-6:])
         question = get_contextual_search_query(history, self._co, verbosity=verbosity)
 
-        #site_url = "https://moodle.org"
-        site_url = None
-
         answer_text, source_urls, source_texts = answer_with_search(question,
                                                                     self._co,
                                                                     self._serp_api_key,

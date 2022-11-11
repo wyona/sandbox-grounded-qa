@@ -73,7 +73,7 @@ curl --request POST --url http://localhost:5007/api/v1/ask --header 'content-typ
 ```
 or one can restrict the search to a particular domain by providing a site URL
 ```
-curl --request POST --url http://localhost:5007/api/v1/ask --header 'content-type: application/json' --data '{ "question":"What is the capital of Brazil?", "site-url":"https://docs.cohere.ai/" }'
+curl --request POST --url http://localhost:5007/api/v1/ask --header 'content-type: application/json' --data '{ "question":"How can I generate a sample answer?", "site-url":"https://docs.cohere.ai/" }'
 ```
 4. (Optional) Run the discord bot demo:  
 You can create a discord both with this functionality by creating a bot account with message read and write permissions at https://discord.com/developers then running the following command

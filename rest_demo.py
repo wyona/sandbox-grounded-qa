@@ -51,7 +51,7 @@ def getAnswer():
 def checkHealth():
     logger.info("Check health ...")
 
-    response = {'status':'UP','about':'Grounded QA'}
+    response = {'status':'UP','about':'Grounded QA','version':'0.0.4'}
     return jsonify(response), 200
  
 if __name__ == "__main__":

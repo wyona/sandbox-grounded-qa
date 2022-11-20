@@ -61,6 +61,7 @@ class GroundedQaBot():
                 pretty_print("BOLD", f"Generated answer:")
                 pretty_print("OKGREEN", f"{answer_text}")
 
+
         source_texts_str = "\n".join(list(set(source_texts)))
         sources_str = "\n".join(list(set(source_urls)))
         if verbosity > 1:
@@ -69,4 +70,4 @@ class GroundedQaBot():
             pretty_print("BOLD", f"Source texts:")
             pretty_print("OKGREEN", f"{source_texts_str}")
 
-        return (reply, sources_str, source_texts_str)
+        return (reply, source_urls, source_texts)

@@ -23,5 +23,6 @@ bot = GroundedQaBot(args.cohere_api_key, args.serp_api_key)
 if __name__ == "__main__":
     while True:
         question = input("question: ")
-        reply, sources, texts = bot.answer(question, verbosity=args.verbosity, n_paragraphs=2)
-        print("answer: " + reply + "\nSource:\n" + sources)
+        reply, source_urls, source_texts = bot.answer(question, verbosity=args.verbosity, n_paragraphs=2)
+        source_urls_str = "\n".join(list(set(source_urls)))
+        print("answer: " + reply + "\nSource:\n" + source_urls_str)

@@ -20,7 +20,7 @@ def getReply():
         name = "user" if chat['is_user'] else "bot"
         history.append(f"{name}: {chat['message']}")
     bot.set_chat_history(history)
-    reply = bot.answer(user_message,
+    reply, source_urls, source_texts = bot.answer(user_message,
                        verbosity=2,
                        n_paragraphs=2,
                        model=st.session_state.model,

@@ -41,9 +41,9 @@ def getAnswer():
         site_url = request.json['site-url']
     logger.info(f"Provided site URL: {site_url}")
 
-    answer, sources, relevant_paragraphs = bot.answer(question, verbosity=args.verbosity, n_paragraphs=2, url=site_url)
+    answer, source_urls, source_texts = bot.answer(question, verbosity=args.verbosity, n_paragraphs=2, url=site_url)
 
-    response = {'answer': answer, 'relevant_paragraphs': relevant_paragraphs, 'sources': sources}
+    response = {'answer': answer, 'source_texts': source_texts, 'source_urls': source_urls}
     return jsonify(response), 200
 
 # Health check endpoint

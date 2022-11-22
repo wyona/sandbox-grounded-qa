@@ -25,12 +25,12 @@ def getReply():
                        n_paragraphs=2,
                        model=st.session_state.model,
                        url=st.session_state.url)
-    print(reply)
-    source_urls_str = "\n".join(list(set(source_urls)))
-    #reply, sources = reply.split("Source:")
+    sources_str = "\n".join(list(set(source_urls)))
+    reply_incl_sources=f"{reply}\nSource:\n{sources_str}"
+    print(reply_incl_sources)
     with col2:
         st.subheader("sources")
-        st.markdown(source_urls_str)
+        st.markdown(sources_str)
 
     st.session_state.input_text = ''
     st.session_state.history.append({"message": user_message, "is_user": True, "avatar_style": "gridy"})

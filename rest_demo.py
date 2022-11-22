@@ -24,8 +24,8 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 # Get answer to question
-# curl --request POST --url http://localhost:5007/api/v1/ask --header 'content-type: application/json' --data '{ "question":"What is the capital of Brazil?" }'
-# curl --request POST --url http://localhost:5007/api/v1/ask --header 'content-type: application/json' --data '{ "question":"What is the capital of Brazil?","site-url":"https://docs.cohere.ai/" }'
+# curl --request POST --url http://localhost:5007/api/v1/ask --header 'content-type: application/json' --data '{ "question":"When was the fall of Constantinople?" }'
+# curl --request POST --url http://localhost:5007/api/v1/ask --header 'content-type: application/json' --data '{ "question":"When was the fall of Constantinople?","site-url":"https://docs.cohere.ai/" }'
 @app.route('/api/v1/ask', methods=['POST'])
 def getAnswer():
     if not request.json or not 'question' in request.json:
@@ -34,8 +34,7 @@ def getAnswer():
     logger.info(f"Get answer to question '{question}' ...")
 
     site_url = None
-    #site_url = "https://weaviate.io"
-    #site_url = "https://moodle.org"
+    #site_url = "https://en.wikipedia.org"
     if 'site-url' in request.json:
         site_url = request.json['site-url']
     logger.info(f"Provided site URL: {site_url}")
@@ -50,7 +49,7 @@ def getAnswer():
 def checkHealth():
     logger.info("Check health ...")
 
-    response = {'status':'UP','about':'Grounded QA','version':'0.0.5'}
+    response = {'status':'UP','about':'Grounded QA','version':'1.0.0'}
     return jsonify(response), 200
  
 if __name__ == "__main__":

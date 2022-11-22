@@ -63,22 +63,22 @@ pip install -r requirements.txt
 ```sh
 python3 cli_demo.py --cohere_api_key <API_KEY> --serp_api_key <API_KEY>
 ```
-3.2. Try the REST demo by running
+or with increased verbosity
 ```sh
-python3 rest_demo.py --cohere_api_key <API_KEY> --serp_api_key <API_KEY> --verbosity 2
-```
-whereas test it by sending the following request
-```
-curl --request POST --url http://localhost:5007/api/v1/ask --header 'content-type: application/json' --data '{ "question":"What is the capital of Brazil?" }'
-```
-or one can restrict the search to a particular domain by providing a site URL
-```
-curl --request POST --url http://localhost:5007/api/v1/ask --header 'content-type: application/json' --data '{ "question":"How can I generate a sample answer?", "site-url":"https://docs.cohere.ai/" }'
+python3 cli_demo.py --cohere_api_key <API_KEY> --serp_api_key <API_KEY> --verbosity 2
 ```
 4. (Optional) Run the discord bot demo:  
 You can create a discord both with this functionality by creating a bot account with message read and write permissions at https://discord.com/developers then running the following command
 ```sh
 python3 discord_bot.py --cohere_api_key <API_KEY> --serp_api_key <API_KEY> --discord_key <DISCORD_KEY>
+```
+5. (Optional) Run the demo as REST based web service:
+```sh
+python3 rest_bot.py --cohere_api_key <API_KEY> --serp_api_key <API_KEY> --discord_key <DISCORD_KEY>
+```
+and send a request
+```
+curl --request POST --url http://localhost:5007/api/v1/ask --header 'content-type: application/json' --data '{ "question":"When was the fall of Constantinople?" }'
 ```
 
 # Get support

@@ -51,8 +51,9 @@ class MyClient(discord.Client):
 
         async with message.channel.typing():
             reply, source_urls, source_texts = bot.answer(message.clean_content, verbosity=2, n_paragraphs=3)
-            source_urls_str = "\n".join(list(set(source_urls)))
-            response_msg = await message.channel.send(reply + "\nSource:\n" + source_urls_str, reference=message)
+            sources_str = "\n".join(list(set(source_urls)))
+            reply_incl_sources=f"{reply}\nSource:\n{sources_str}"
+            response_msg = await message.channel.send(reply_incl_sources, reference=message)
             await response_msg.edit(suppress=True)
             return
 

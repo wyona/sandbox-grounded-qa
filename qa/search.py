@@ -96,13 +96,12 @@ def serp_api_search(search_term, serp_api_token, url, verbosity=0):
             pretty_print("OKGREEN", f"Search results from SerpAPI/Google: {results}")
 
     response_urls = []
-    text = ""
-    url = ""
     for key in ["organic_results", "top_stories"]:
         if key in results:
             i = 0
             while i < len(results[key]):
                 url = results[key][i]["link"]
+                text = ""
                 if "snippet" in results[key][i]:
                     text = results[key][i]["snippet"]
                 i += 1
@@ -200,7 +199,7 @@ def get_results_paragraphs_multi_process(search_term, serp_api_token, url=None, 
     return paragraphs, paragraph_sources
 
 
-def embedding_search(paragraphs, paragraph_sources, search_term, co, model="small", verbosity=0):
+def embedding_search(paragraphs, paragraph_sources, search_term, co, model="multilingual-22-12", verbosity=0):
     """Embed paragraphs and search for the closest ones to a query."""
 
     if verbosity > 1:

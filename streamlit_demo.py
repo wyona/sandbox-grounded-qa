@@ -20,11 +20,8 @@ def getReply():
         name = "user" if chat['is_user'] else "bot"
         history.append(f"{name}: {chat['message']}")
     bot.set_chat_history(history)
-    reply, source_urls, source_texts = bot.answer(user_message,
-                       verbosity=2,
-                       n_paragraphs=2,
-                       model=st.session_state.model,
-                       url=st.session_state.url)
+    bot.set_generate_model(model=st.session_state.model)
+    reply, source_urls, source_texts = bot.answer(user_message, verbosity=2, n_paragraphs=2, url=st.session_state.url)
     sources_str = "\n".join(list(set(source_urls)))
     reply_incl_sources=f"{reply}\nSource:\n{sources_str}"
     print(reply_incl_sources)

@@ -16,6 +16,8 @@ parser.add_argument("--verbosity", type=int, default=0, help="verbosity level")
 args = parser.parse_args()
 
 bot = GroundedQaBot(args.cohere_api_key, args.serp_api_key)
+# See available models at https://docs.cohere.com/reference/generate
+#bot = GroundedQaBot(args.cohere_api_key, args.serp_api_key, generate_model='command')
 
 app = Flask(__name__)
 

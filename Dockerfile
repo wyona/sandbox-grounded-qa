@@ -20,6 +20,8 @@ ARG SERP_API_KEY
 ENV SERP_API_KEY=$SERP_API_KEY
 ARG VERBOSITY
 ENV VERBOSITY=$VERBOSITY
+ARG GENERATE_MODEL
+ENV GENERATE_MODEL=$GENERATE_MODEL
 
-CMD [ "sh", "-c", "echo $COHERE_API_KEY; python rest_demo.py --cohere_api_key $COHERE_API_KEY --serp_api_key $SERP_API_KEY --verbosity $VERBOSITY" ]
-#CMD [ "python", "./rest_demo.py", "--cohere_api_key", "$COHERE_API_KEY", "--serp_api_key", "$SERP_API_KEY", "--verbosity", "$VERBOSITY" ]
+CMD [ "sh", "-c", "echo $COHERE_API_KEY; python rest_demo.py --cohere_api_key $COHERE_API_KEY --serp_api_key $SERP_API_KEY --verbosity $VERBOSITY --generate_model $GENERATE_MODEL" ]
+#CMD [ "python", "./rest_demo.py", "--cohere_api_key", "$COHERE_API_KEY", "--serp_api_key", "$SERP_API_KEY", "--verbosity", "$VERBOSITY", "--generate_model", "$GENERATE_MODEL" ]

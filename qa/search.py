@@ -191,11 +191,25 @@ def get_results_paragraphs_multi_process(search_term, serp_api_token, url=None, 
 
     paragraphs = []
     paragraph_sources = []
+    MAX_PARAS = 5 # Because of the trial key we have to limit the number of paragraphs, for which embeddings will be retrieved
     for i in range(len(url_paragraphs)):
+        print(f"Array contains {len(paragraphs)} paragraphs so far")
+        if len(paragraphs) >= MAX_PARAS:
+            pretty_print("FAIL", f"Maximum number of {MAX_PARAS} paragraphs reached.")
+            for k in reversed(range(MAX_PARAS, len(paragraphs))):
+                print(f"Remove paragraph {k} ...")
+                print(f"Paragraph: {paragraphs[k]}")
+                print(f"Paragraph Source: {paragraph_sources[k]}\n")
+                paragraphs.pop()
+                paragraph_sources.pop()
+            return paragraphs, paragraph_sources
+        print(f"\nAppend {len(url_paragraphs[i])} paragraphs ...")
         if verbosity > 1:
-            pretty_print("OKGREEN", f"Append paragraph '{url_paragraphs[i]}' ...")
+            pretty_print("OKGREEN", f"Append paragraphs '{url_paragraphs[i]}' ...")
         paragraphs += url_paragraphs[i]
         paragraph_sources += [urls[i]] * len(url_paragraphs[i])
+        print(f"{len(paragraphs)} paragraphs added")
+
     return paragraphs, paragraph_sources
 
 
@@ -203,7 +217,7 @@ def embedding_search(paragraphs, paragraph_sources, search_term, co, model="mult
     """Embed paragraphs and search for the closest ones to a query."""
 
     if verbosity > 1:
-        pretty_print("OKGREEN", f"Get embeddings for paragraphs and search term '{search_term}' ...")
+        pretty_print("OKGREEN", f"Get embeddings for {len(paragraphs)} paragraphs and search term '{search_term}' ...")
 
     embeddings = co.embed(texts=paragraphs + [search_term], model=model, truncate="LEFT").embeddings
     paragraph_embeddings = embeddings[:-1]

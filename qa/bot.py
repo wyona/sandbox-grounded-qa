@@ -18,11 +18,12 @@ from qa.util import pretty_print
 class GroundedQaBot():
     """A class yielding Grounded question-answering conversational agents."""
 
-    def __init__(self, cohere_api_key, serp_api_key):
+    def __init__(self, cohere_api_key, serp_api_key, generate_model='command'):
         self._cohere_api_key = cohere_api_key
         self._serp_api_key = serp_api_key
         self._chat_history = []
         self._co = cohere.Client(self._cohere_api_key)
+        self._generate_model = generate_model
 
     @property
     def chat_history(self):
@@ -31,20 +32,26 @@ class GroundedQaBot():
     def set_chat_history(self, chat_history):
         self._chat_history = chat_history
 
-    def answer(self, question, verbosity=0, n_paragraphs=1, url=None, model='xlarge'):
+    def set_generate_model(self, model='command'):
+        self._generate_model = model
+
+    def answer(self, question, verbosity=0, n_paragraphs=1, url=None):
         """Answer a question, based on recent conversational history."""
+
+        if verbosity > 1:
+            print(f"Generate model: {self._generate_model}")
 
         self.chat_history.append("user: " + question)
 
         history = "\n".join(self.chat_history[-6:])
-        question = get_contextual_search_query(history, self._co, verbosity=verbosity)
+        question = get_contextual_search_query(history, self._co, model=self._generate_model, verbosity=verbosity)
 
         answer_text, source_urls, source_texts = answer_with_search(question,
                                                                     self._co,
                                                                     self._serp_api_key,
                                                                     verbosity=verbosity,
                                                                     url=url,
-                                                                    model=model,
+                                                                    model=self._generate_model,
                                                                     n_paragraphs=n_paragraphs)
 
         self._chat_history.append("bot: " + answer_text)

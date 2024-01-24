@@ -75,13 +75,15 @@ def answer_with_search(question,
     """Generates completion based on search results."""
 
     if verbosity > 1:
+        pretty_print("OKGREEN", f"Generate Model: {model}")
+        pretty_print("OKGREEN", f"Embedding Model: {embedding_model}")
         pretty_print("OKGREEN", f"Site URL: {url}")
 
     paragraphs, paragraph_sources = get_results_paragraphs_multi_process(question, serp_api_token, url=url, verbosity=verbosity)
     if not paragraphs:
         pretty_print("FAIL", f"No paragraphs retrieved!")
         return ("", "", "")
-    sample_answer = get_sample_answer(question, co)
+    sample_answer = get_sample_answer(question, co, model=model)
     if verbosity > 1:
         pretty_print("OKGREEN", f"Sample answer: {sample_answer}")
 

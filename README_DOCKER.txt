@@ -1,8 +1,8 @@
-python3 rest_demo.py --cohere_api_key J2qwX5TdARa15Ty9mhFHN8JdKfNl0HOfBW3lQeoO --serp_api_key 0cfeea5c866740f934f499d1cbf4fced689cc0661c5fc58a1d08113ffe470831 --verbosity 2
+python3 rest_demo.py --cohere_api_key REPLACE_BY_COHERE_API_KEY --serp_api_key REPLACE_BY_SERP_API_KEY --verbosity 2
 
 docker build -t cohere-grounded-qa .
 
-docker run -p 5007:5007 -e COHERE_API_KEY=J2qwX5TdARa15Ty9mhFHN8JdKfNl0HOfBW3lQeoO -e SERP_API_KEY=0cfeea5c866740f934f499d1cbf4fced689cc0661c5fc58a1d08113ffe470831 -e GENERATE_MODEL=command cohere-grounded-qa
+docker run -p 5007:5007 -e COHERE_API_KEY=REPLACE_BY_COHERE_API_KEY -e SERP_API_KEY=REPLACE_BY_SERP_API_KEY -e GENERATE_MODEL=command cohere-grounded-qa
 
 docker-compose up -d
 docker-compose logs -f

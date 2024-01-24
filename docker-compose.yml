@@ -13,6 +13,7 @@ services:
       - COHERE_API_KEY=REPLACE_THIS_STRING_BY_API_KEY
       - SERP_API_KEY=REPLACE_THIS_STRING_BY_API_KEY
       - VERBOSITY=2
+      - GENERATE_MODEL=command
     ports:
       - 5007:5007
       #- 127.0.0.1:5007:5007

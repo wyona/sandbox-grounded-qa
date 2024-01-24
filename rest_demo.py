@@ -13,11 +13,12 @@ parser = argparse.ArgumentParser(description="A grounded QA bot with cohere and 
 parser.add_argument("--cohere_api_key", type=str, help="api key for cohere", required=True)
 parser.add_argument("--serp_api_key", type=str, help="api key for serpAPI", required=True)
 parser.add_argument("--verbosity", type=int, default=0, help="verbosity level")
+parser.add_argument("--generate_model", type=str, default="command", help="generate model")
 args = parser.parse_args()
 
-bot = GroundedQaBot(args.cohere_api_key, args.serp_api_key)
+#bot = GroundedQaBot(args.cohere_api_key, args.serp_api_key)
 # See available models at https://docs.cohere.com/reference/generate
-#bot = GroundedQaBot(args.cohere_api_key, args.serp_api_key, generate_model='command')
+bot = GroundedQaBot(args.cohere_api_key, args.serp_api_key, generate_model=args.generate_model)
 
 app = Flask(__name__)
 
